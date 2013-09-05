@@ -1,0 +1,37 @@
+[core]
+    whitespace = nowarn
+    pager = less
+	excludesfile = /Users/nils.winkler/.gitignore_global
+[user]
+	name = Nils Winkler
+	email = nils@nilswinkler.com
+[github]
+    user = nwinkler
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[alias]
+    p = !git checkout master && git pull origin master && git push origin master && git checkout -
+    pp = !git checkout develop && git pull origin develop && git push origin develop && git checkout -
+    co = checkout
+    st = status
+    ci = commit
+    ca = commit -a
+    br = branch
+    ba = branch -a
+    df = diff
+    dfs = diff --cached
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    spull = !git checkout master && git-svn fetch && git-svn rebase && git checkout - && git rebase master
+    spush = !git checkout master && git-svn dcommit && git checkout -
+[difftool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	trustExitCode = true
+[http]
+	postBuffer = 524288000
+[https]
+[https]
