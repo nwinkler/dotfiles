@@ -2,6 +2,7 @@
     whitespace = nowarn
     pager = less
 	excludesfile = /Users/nils.winkler/.gitignore_global
+	autocrlf = input
 [user]
 	name = Nils Winkler
 	email = nils@nilswinkler.com
@@ -35,3 +36,5 @@
 	postBuffer = 524288000
 [https]
 [https]
+[credential]
+	helper = osxkeychain
