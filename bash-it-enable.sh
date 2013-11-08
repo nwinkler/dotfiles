@@ -5,6 +5,7 @@ source ~/.bash_it/bash_it.sh
 # Aliases
 bash-it enable alias general
 bash-it enable alias git
+bash-it enable alias gitsvn
 bash-it enable alias homebrew
 bash-it enable alias maven
 bash-it enable alias nwinkler
