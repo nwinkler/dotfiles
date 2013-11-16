@@ -28,4 +28,6 @@ export PHANTOMJS_BIN=/usr/local/bin/phantomjs
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
+export GIT_HOSTING='ssh://git@ssh.github.com:443/'
+
 usemvn 3.0.4

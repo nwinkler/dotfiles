@@ -9,9 +9,6 @@ export BASH_IT=$HOME/.bash_it
 # location /.bash_it/themes/
 export BASH_IT_THEME='nwinkler'
 
-# Your place for hosting Git repos. I use this for private repos.
-export GIT_HOSTING='git@git.domain.com'
-
 # Set my editor and git editor
 export EDITOR="vim"
 export GIT_EDITOR='vim'
