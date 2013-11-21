@@ -16,7 +16,7 @@ Clone the dotfiles repo
 
 Then symlink the dotfiles to your home directory
 
-    homesick symlink nwinkler/dotfiles
+    homesick symlink dotfiles
 
 
 Thanks
