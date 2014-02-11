@@ -1,0 +1,24 @@
+#!/bin/bash
+
+export MAVEN_HOME=/usr/local/maven
+export PATH=${MAVEN_HOME}/bin:${PATH}
+export MAVEN_OPTS=-Xmx512m
+
+set_java_home 1.6 -silent
+
+export MYSQL_HOME=/usr/local/mysql
+export PATH=${MYSQL_HOME}/bin:${PATH}
+
+export ANT_HOME=/usr/local/ant
+export PATH=${ANT_HOME}/bin:${PATH}
+
+export PATH=~/bin:/opt/subversion/bin:/usr/local/sbin:${PATH}
+
+export HISTIGNORE=' *'
+
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+export GIT_HOSTING='ssh://git@ssh.github.com:443/'
+
+usemvn 3.0.4
+
