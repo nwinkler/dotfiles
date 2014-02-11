@@ -55,3 +55,10 @@ brew install subversion16
 brew tap phinze/cask
 brew install brew-cask
 
+export HOMEBREW_CASK_OPTS=--appdir=/Applications
+
+sudo chown root:staff /Applications
+
+brew cask install mou
+
+sudo chown root:admin /Applications
