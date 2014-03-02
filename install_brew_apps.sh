@@ -52,6 +52,8 @@ brew install wget
 
 brew install subversion16
 
+brew install git-flow
+
 brew tap phinze/cask
 brew install brew-cask
 
@@ -60,5 +62,13 @@ export HOMEBREW_CASK_OPTS=--appdir=/Applications
 sudo chown root:staff /Applications
 
 brew cask install mou
+
+brew cask install brackets
+
+brew cask install dropbox
+
+brew cask install evernote
+
+brew cask install webstorm
 
 sudo chown root:admin /Applications
