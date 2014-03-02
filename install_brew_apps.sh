@@ -22,13 +22,13 @@ brew install links
 
 brew install macvim
 
-brew install maven2
-
-brew install maven30
+brew install maven
 
 brew install mongodb
 
 brew install mplayer
+
+brew install mysql
 
 brew install node
 
