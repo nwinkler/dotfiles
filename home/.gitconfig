@@ -2,7 +2,7 @@
     whitespace = nowarn
     pager = less
 	excludesfile = /Users/nils.winkler/.gitignore_global
-	autocrlf = input
+	#autocrlf = input
 [user]
 	name = Nils Winkler
 	email = nils.winkler@sungard.com
@@ -28,7 +28,7 @@
     spush = !git checkout master && git-svn dcommit && git checkout -
 [difftool "sourcetree"]
 	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 	trustExitCode = true
@@ -39,3 +39,5 @@
 [credential]
 	helper = osxkeychain
 [https]
+[push]
+	default = simple
