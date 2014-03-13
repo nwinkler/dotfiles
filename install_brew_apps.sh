@@ -54,6 +54,8 @@ brew install subversion16
 
 brew install git-flow
 
+brew install dos2unix
+
 brew tap phinze/cask
 brew install brew-cask
 
@@ -63,11 +65,15 @@ sudo chown root:staff /Applications
 
 brew cask install mou
 
+brew cask install adium
+
 brew cask install brackets
 
 brew cask install dropbox
 
 brew cask install evernote
+
+brew cask install skitch
 
 brew cask install webstorm
 
