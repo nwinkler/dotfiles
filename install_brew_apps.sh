@@ -6,6 +6,8 @@ brew install ack
 
 brew install ant
 
+brew install coreutils
+
 brew install editorconfig
 
 brew install faac
