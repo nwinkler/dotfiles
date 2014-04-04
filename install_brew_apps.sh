@@ -61,6 +61,8 @@ brew install dos2unix
 brew tap phinze/cask
 brew install brew-cask
 
+brew tap caskroom/versions
+
 export HOMEBREW_CASK_OPTS=--appdir=/Applications
 
 sudo chown root:staff /Applications
@@ -74,6 +76,10 @@ brew cask install brackets
 brew cask install dropbox
 
 brew cask install evernote
+
+#brew cask install keepassx
+
+brew cask install keepassx0
 
 brew cask install skitch
 
