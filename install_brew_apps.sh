@@ -77,6 +77,8 @@ brew cask install dropbox
 
 brew cask install evernote
 
+brew cask install gimp
+
 #brew cask install keepassx
 
 brew cask install keepassx0
