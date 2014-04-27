@@ -71,6 +71,8 @@ brew cask install mou
 
 brew cask install adium
 
+brew cask install atom
+
 brew cask install brackets
 
 brew cask install dropbox
