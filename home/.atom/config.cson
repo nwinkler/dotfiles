@@ -1,0 +1,28 @@
+'exception-reporting':
+  'userId': 'db51cad4-82e1-4bc0-cc93-449bd743d7e9'
+'release-notes':
+  'viewedVersion': '0.92.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'f98723003432ede403e38c56f7fee9ad398c422e'
+'editor':
+  'fontSize': 12
+  'showInvisibles': true
+'core':
+  'themes': [
+    'seti-ui'
+    'seti-monokai'
+  ]
+  'disabledPackages': [
+    'term'
+  ]
+  'useReactEditor': true
+'minimap':
+  'autoToggle': true
+'autosave':
+  'enabled': true
+'browser-refresh':
+  'saveFilesBeforeRefresh': true
+'autocomplete-plus':
+  'enableAutoActivation': false
