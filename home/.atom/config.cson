@@ -26,3 +26,5 @@
   'saveFilesBeforeRefresh': true
 'autocomplete-plus':
   'enableAutoActivation': false
+'iTunes':
+  'showEqualizer (WindowResizePerformanceIssue)': false
