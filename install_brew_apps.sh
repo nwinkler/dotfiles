@@ -73,8 +73,6 @@ brew cask install adium
 
 brew cask install atom
 
-brew cask install brackets
-
 brew cask install dropbox
 
 brew cask install evernote
