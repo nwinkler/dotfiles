@@ -22,3 +22,6 @@
 
 '.platform-darwin .editor':
   'ctrl-cmd-i': 'script:run'
+
+'.platform-darwin .editor':
+  'shift-cmd-H': 'git-plus:menu'
