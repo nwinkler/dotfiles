@@ -22,4 +22,4 @@ export HISTIGNORE=' *'
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
-export GIT_HOSTING='ssh://git@ssh.github.com:443/'
+export GIT_HOSTING='git@github.com:'
