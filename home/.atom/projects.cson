@@ -13,3 +13,8 @@
   'paths': [
     '/Users/nils.winkler/.homesick/repos/dotfiles'
   ]
+'sp-spy':
+  'title': 'sp-spy'
+  'paths': [
+    '/Users/nils.winkler/workspaces/html5-git/modules/sg-spy'
+  ]
