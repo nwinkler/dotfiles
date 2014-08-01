@@ -7,10 +7,15 @@ set_java_home 1.6 -silent
 export PATH=~/bin:/usr/local/sbin:${PATH}
 
 export BASH_IT_HTTP_PROXY=http://localhost:8999
-export BASH_IT_HTTPS_PROXY=http://localhost:8999
+export BASH_IT_HTTPS_PROXY=$BASH_IT_HTTP_PROXY
+
+export BASH_IT_HTTP_PROXY_ALT=http://10.244.145.252:8080
+export BASH_IT_HTTPS_PROXY_ALT=$BASH_IT_HTTP_PROXY_ALT
 
 export http_proxy=$BASH_IT_HTTP_PROXY
 export https_proxy=$BASH_IT_HTTPS_PROXY
+export HTTP_PROXY=$http_proxy
+export HTTPS_PROXY=$https_proxy
 export ALL_PROXY=$http_proxy
 
 export HISTIGNORE=' *'
@@ -18,4 +23,3 @@ export HISTIGNORE=' *'
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 export GIT_HOSTING='ssh://git@ssh.github.com:443/'
-
