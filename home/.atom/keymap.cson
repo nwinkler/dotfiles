@@ -19,3 +19,6 @@
 
 '.workspace .editor:not(.mini)':
   'cmd-<': ''
+
+'.platform-darwin .editor':
+  'ctrl-cmd-i': 'script:run'
