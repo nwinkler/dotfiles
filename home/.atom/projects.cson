@@ -1,0 +1,15 @@
+'atom-keyboard-shortcuts':
+  'title': 'atom-keyboard-shortcuts'
+  'paths': [
+    '/Users/nils.winkler/workspaces/atom/atom-keyboard-shortcuts'
+  ]
+'bookmarklet':
+  'title': 'bookmarklet'
+  'paths': [
+    '/Users/nils.winkler/workspaces/atom/bookmarklet'
+  ]
+'dotfiles':
+  'title': 'dotfiles'
+  'paths': [
+    '/Users/nils.winkler/.homesick/repos/dotfiles'
+  ]
