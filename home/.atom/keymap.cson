@@ -17,7 +17,7 @@
 #   'ctrl-p': 'core:move-down'
 #
 
-'.workspace .editor:not(.mini)':
+'.workspace .editor:not(.mini), .workspace':
   'cmd-<': ''
 
 '.platform-darwin .editor':
