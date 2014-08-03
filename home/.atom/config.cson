@@ -28,3 +28,8 @@
   'enableAutoActivation': false
 'iTunes':
   'showEqualizer (WindowResizePerformanceIssue)': false
+'highlight-line':
+  'enableSelectionBorder': true
+  'enableUnderline': true
+  'underline':
+    'solid': true
