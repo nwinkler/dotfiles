@@ -18,7 +18,7 @@
 #
 
 '.workspace .editor:not(.mini), .workspace':
-  'cmd-<': ''
+  'cmd-<': 'unset!'
 
 '.platform-darwin .editor':
   'ctrl-cmd-i': 'script:run'
