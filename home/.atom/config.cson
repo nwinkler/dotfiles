@@ -16,6 +16,9 @@
   ]
   'disabledPackages': [
     'term'
+    'autocomplete-snippets'
+    'autocomplete-plus'
+    'atom-jshint'
   ]
   'useReactEditor': true
 'minimap':
@@ -23,7 +26,8 @@
 'autosave': {}
 'browser-refresh':
   'saveFilesBeforeRefresh': true
-'autocomplete-plus': {}
+'autocomplete-plus':
+  'enableAutoActivation': false
 'iTunes':
   'showEqualizer (WindowResizePerformanceIssue)': false
 'highlight-line':
