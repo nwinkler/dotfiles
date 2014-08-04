@@ -20,12 +20,10 @@
   'useReactEditor': true
 'minimap':
   'autoToggle': true
-'autosave':
-  'enabled': true
+'autosave': {}
 'browser-refresh':
   'saveFilesBeforeRefresh': true
-'autocomplete-plus':
-  'enableAutoActivation': false
+'autocomplete-plus': {}
 'iTunes':
   'showEqualizer (WindowResizePerformanceIssue)': false
 'highlight-line':
