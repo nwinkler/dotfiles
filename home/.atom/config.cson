@@ -16,8 +16,6 @@
   ]
   'disabledPackages': [
     'term'
-    'autocomplete-snippets'
-    'autocomplete-plus'
     'atom-jshint'
   ]
   'useReactEditor': true
