@@ -18,3 +18,18 @@
   'paths': [
     '/Users/nils.winkler/workspaces/html5-git/modules/sg-spy'
   ]
+'.m2':
+  'title': '.m2'
+  'paths': [
+    '/Users/nils.winkler/.m2'
+  ]
+'html5':
+  'title': 'html5'
+  'paths': [
+    '/Users/nils.winkler/workspaces/html5-git/html5-framework-build'
+  ]
+'bash-it':
+  'title': 'bash-it'
+  'paths': [
+    '/Users/nils.winkler/.bash_it'
+  ]
