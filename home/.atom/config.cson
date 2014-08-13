@@ -32,3 +32,5 @@
   'enableUnderline': true
   'underline':
     'solid': true
+'open-in':
+  'applications': 'SourceTree,Terminal,Finder,WebStorm'
