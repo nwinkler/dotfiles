@@ -33,3 +33,8 @@
   'paths': [
     '/Users/nils.winkler/.bash_it'
   ]
+'nilswinkler.com':
+  'title': 'nilswinkler.com'
+  'paths': [
+    '/Users/Nils.Winkler/workspaces/Nils/nilswinkler.com'
+  ]
