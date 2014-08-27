@@ -35,3 +35,6 @@
     'solid': true
 'open-in':
   'applications': 'SourceTree,Terminal,Finder,WebStorm'
+'project-manager':
+  'sortByTitle': true
+  'showPath': true
