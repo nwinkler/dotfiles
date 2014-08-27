@@ -17,6 +17,7 @@
   'disabledPackages': [
     'term'
     'atom-jshint'
+    'file-icons'
   ]
   'useReactEditor': true
 'minimap':
