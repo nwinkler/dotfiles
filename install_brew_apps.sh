@@ -42,6 +42,8 @@ brew install rsync
 
 brew install squid
 
+brew install ssh-copy-id
+
 brew install tomcat6
 
 brew install tree
