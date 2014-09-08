@@ -9,6 +9,7 @@
 'editor':
   'fontSize': 12
   'showInvisibles': true
+  'invisibles': {}
 'core':
   'themes': [
     'seti-ui'
@@ -38,3 +39,4 @@
 'project-manager':
   'sortByTitle': true
   'showPath': true
+'git-plus': {}
