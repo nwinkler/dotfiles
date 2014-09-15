@@ -20,7 +20,7 @@
 '.workspace .editor:not(.mini), .workspace':
   'cmd-<': 'unset!'
 
-'.platform-darwin .editor':
+'.platform-darwin .editor, .workspace':
   'ctrl-cmd-i': 'script:run'
 
 '.platform-darwin .editor':
