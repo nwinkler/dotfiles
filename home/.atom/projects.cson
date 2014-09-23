@@ -38,3 +38,8 @@
   'paths': [
     '/Users/Nils.Winkler/workspaces/Nils/nilswinkler.com'
   ]
+'protractor-tools':
+  'title': 'protractor-tools'
+  'paths': [
+    '/Users/nils.winkler/workspaces/html5-git/tools/html5-protractor-tools'
+  ]
