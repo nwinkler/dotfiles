@@ -9,7 +9,6 @@
 'editor':
   'fontSize': 12
   'showInvisibles': true
-  'invisibles': {}
 'core':
   'themes': [
     'seti-ui'
@@ -23,10 +22,12 @@
   'useReactEditor': true
 'minimap':
   'autoToggle': true
-'autosave': {}
+  'plugins':
+    'find-and-replace': true
+    'git-diff': true
+    'highlight-selected': true
 'browser-refresh':
   'saveFilesBeforeRefresh': true
-'autocomplete-plus': {}
 'iTunes':
   'showEqualizer (WindowResizePerformanceIssue)': false
 'highlight-line':
@@ -39,5 +40,4 @@
 'project-manager':
   'sortByTitle': true
   'showPath': true
-'git-plus': {}
 'autoclose-html': {}
