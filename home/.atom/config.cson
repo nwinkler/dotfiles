@@ -8,7 +8,7 @@
   'metrics':
     'userId': 'f98723003432ede403e38c56f7fee9ad398c422e'
   'editor':
-    'fontSize': 12
+    'fontSize': 13
     'showInvisibles': true
   'core':
     'themes': [
@@ -37,3 +37,8 @@
   'highlight-line':
     'enableUnderline': true
   'autoclose-html': {}
+  'linter': {}
+'.ini.source':
+  'editor': {}
+'.plain.text':
+  'editor': {}
