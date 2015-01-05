@@ -87,6 +87,8 @@ brew cask install keepassx0
 
 brew cask install licecap
 
+brew cask install netspot
+
 brew cask install skitch
 
 brew cask install webstorm
