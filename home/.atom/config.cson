@@ -1,4 +1,4 @@
-'global':
+'*':
   'exception-reporting':
     'userId': 'db51cad4-82e1-4bc0-cc93-449bd743d7e9'
   'release-notes':
@@ -10,35 +10,30 @@
   'editor':
     'fontSize': 13
     'showInvisibles': true
+    'invisibles': {}
   'core':
-    'themes': [
-      'seti-ui'
-      'seti-monokai'
-    ]
     'disabledPackages': [
       'term'
       'atom-jshint'
       'file-icons'
+      'themed-settings'
     ]
-    'useReactEditor': true
+    'themes': [
+      'seti-ui'
+      'seti-monokai'
+    ]
   'minimap':
     'plugins':
-      'find-and-replace': true
-      'git-diff': true
       'highlight-selected': true
+      'git-diff': true
   'browser-refresh':
     'saveFilesBeforeRefresh': true
   'iTunes':
     'showEqualizer (WindowResizePerformanceIssue)': false
   'open-in':
     'applications': 'SourceTree,Terminal,Finder,WebStorm'
-  'project-manager':
-    'sortByTitle': true
+  'project-manager': {}
   'highlight-line':
     'enableUnderline': true
   'autoclose-html': {}
   'linter': {}
-'.ini.source':
-  'editor': {}
-'.plain.text':
-  'editor': {}
