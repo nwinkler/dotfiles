@@ -6,7 +6,11 @@ brew install ack
 
 brew install ant
 
+brew install boot2docker
+
 brew install coreutils
+
+brew install docker
 
 brew install editorconfig
 
@@ -17,6 +21,8 @@ brew install ffmpeg
 brew install freetype
 
 brew install git
+
+brew install git-flow-avh
 
 brew install lame
 
@@ -43,6 +49,8 @@ brew install rsync
 brew install squid
 
 brew install ssh-copy-id
+
+brew install the_silver_searcher
 
 brew install tomcat6
 
@@ -71,8 +79,6 @@ sudo chown root:staff /Applications
 
 brew cask install mou
 
-brew cask install adium
-
 brew cask install atom
 
 brew cask install dropbox
@@ -93,4 +99,14 @@ brew cask install skitch
 
 brew cask install webstorm
 
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+
 sudo chown root:admin /Applications
+
+# Gem tools
+
+sudo gem install git-up
+
+# Atom packages
+
+apm stars --install
