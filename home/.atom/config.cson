@@ -1,39 +1,45 @@
-'*':
-  'exception-reporting':
-    'userId': 'db51cad4-82e1-4bc0-cc93-449bd743d7e9'
-  'release-notes':
-    'viewedVersion': '0.92.0'
-  'welcome':
-    'showOnStartup': false
-  'metrics':
-    'userId': 'f98723003432ede403e38c56f7fee9ad398c422e'
-  'editor':
-    'fontSize': 13
-    'showInvisibles': true
-    'invisibles': {}
-  'core':
-    'disabledPackages': [
-      'term'
-      'atom-jshint'
-      'file-icons'
-      'themed-settings'
+"*":
+  "exception-reporting":
+    userId: "db51cad4-82e1-4bc0-cc93-449bd743d7e9"
+  "release-notes":
+    viewedVersion: "0.92.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "f98723003432ede403e38c56f7fee9ad398c422e"
+  editor:
+    showInvisibles: true
+    invisibles: {}
+    fontSize: 14
+  core:
+    disabledPackages: [
+      "term"
+      "atom-jshint"
+      "file-icons"
+      "themed-settings"
+      "symbols-view"
     ]
-    'themes': [
-      'seti-ui'
-      'seti-monokai'
+    themes: [
+      "seti-ui"
+      "seti-monokai"
     ]
-  'minimap':
-    'plugins':
-      'highlight-selected': true
-      'git-diff': true
-  'browser-refresh':
-    'saveFilesBeforeRefresh': true
-  'iTunes':
-    'showEqualizer (WindowResizePerformanceIssue)': false
-  'open-in':
-    'applications': 'SourceTree,Terminal,Finder,WebStorm'
-  'project-manager': {}
-  'highlight-line':
-    'enableUnderline': true
-  'autoclose-html': {}
-  'linter': {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "git-diff": true
+      "find-and-replace": true
+  "browser-refresh":
+    saveFilesBeforeRefresh: true
+  iTunes:
+    "showEqualizer (WindowResizePerformanceIssue)": false
+  "open-in":
+    applications: "SourceTree,Terminal,Finder,WebStorm"
+  "project-manager": {}
+  "highlight-line":
+    enableUnderline: true
+  "autoclose-html": {}
+  linter: {}
+  "git-plus": {}
+  "atom-ctags":
+    cmdArgs: "--exclude=node_modules"
+  "autocomplete-plus": {}
