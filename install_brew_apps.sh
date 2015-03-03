@@ -93,6 +93,8 @@ brew cask install keepassx0
 
 brew cask install licecap
 
+brew cask install mysqlworkbench
+
 brew cask install netspot
 
 brew cask install skitch
