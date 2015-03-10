@@ -7,7 +7,7 @@ set_java_home 1.6 -silent
 export PATH=~/bin:/usr/local/sbin:${PATH}
 
 export BASH_IT_HTTP_PROXY_ALT=http://localhost:8999
-export BASH_IT_HTTPS_PROXY_ALR=$BASH_IT_HTTP_PROXY_ALT
+export BASH_IT_HTTPS_PROXY_ALT=$BASH_IT_HTTP_PROXY_ALT
 
 export BASH_IT_HTTP_PROXY=http://10.244.145.252:8080
 export BASH_IT_HTTPS_PROXY=$BASH_IT_HTTP_PROXY
