@@ -4,6 +4,8 @@ brew tap homebrew/versions
 
 brew install ack
 
+brew install ansible
+
 brew install ant
 
 brew install boot2docker
@@ -64,8 +66,6 @@ brew install wget
 
 brew install subversion16
 
-brew install git-flow
-
 brew install dos2unix
 
 brew tap phinze/cask
@@ -102,6 +102,10 @@ brew cask install skitch
 brew cask install webstorm
 
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
 
 sudo chown root:admin /Applications
 

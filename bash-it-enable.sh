@@ -11,6 +11,7 @@ bash-it enable alias maven
 bash-it enable alias nwinkler
 bash-it enable alias osx
 bash-it enable alias vim
+bash-it enable alias vagrant
 
 # Completions
 bash-it enable completion bash-it
@@ -21,6 +22,7 @@ bash-it enable completion git_flow
 bash-it enable completion homesick
 bash-it enable completion maven
 bash-it enable completion ssh
+bash-it enable completion vagrant
 
 # Plugins
 bash-it enable plugin audio
