@@ -1,45 +1,58 @@
 "*":
-  "exception-reporting":
-    userId: "db51cad4-82e1-4bc0-cc93-449bd743d7e9"
-  "release-notes":
-    viewedVersion: "0.92.0"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "f98723003432ede403e38c56f7fee9ad398c422e"
-  editor:
-    showInvisibles: true
-    invisibles: {}
-    fontSize: 14
-  core:
-    disabledPackages: [
-      "term"
-      "atom-jshint"
-      "file-icons"
-      "themed-settings"
-      "symbols-view"
-    ]
-    themes: [
-      "seti-ui"
-      "seti-monokai"
-    ]
-  minimap:
-    plugins:
-      "highlight-selected": true
-      "git-diff": true
-      "find-and-replace": true
-  "browser-refresh":
-    saveFilesBeforeRefresh: true
-  iTunes:
-    "showEqualizer (WindowResizePerformanceIssue)": false
-  "open-in":
-    applications: "SourceTree,Terminal,Finder,WebStorm"
-  "project-manager": {}
-  "highlight-line":
-    enableUnderline: true
+  "*":
+    "exception-reporting":
+      userId: "db51cad4-82e1-4bc0-cc93-449bd743d7e9"
+    "release-notes":
+      viewedVersion: "0.92.0"
+    welcome:
+      showOnStartup: false
+    metrics:
+      userId: "f98723003432ede403e38c56f7fee9ad398c422e"
+    editor:
+      showInvisibles: true
+      fontSize: 14
+    core:
+      disabledPackages: [
+        "term"
+        "atom-jshint"
+        "file-icons"
+        "themed-settings"
+        "symbols-view"
+      ]
+      themes: [
+        "seti-ui"
+        "seti-monokai"
+      ]
+    minimap:
+      plugins:
+        "highlight-selected": true
+        "git-diff": true
+        "find-and-replace": true
+    "browser-refresh":
+      saveFilesBeforeRefresh: true
+    iTunes:
+      "showEqualizer (WindowResizePerformanceIssue)": false
+    "open-in":
+      applications: "SourceTree,Terminal,Finder,WebStorm"
+    "highlight-line":
+      enableUnderline: true
+    "atom-ctags":
+      cmdArgs: "--exclude=node_modules"
   "autoclose-html": {}
   linter: {}
-  "git-plus": {}
-  "atom-ctags":
-    cmdArgs: "--exclude=node_modules"
-  "autocomplete-plus": {}
+  "exception-reporting":
+    userId: "3e371242-4a5b-6e92-780d-36c1679a069e"
+  welcome:
+    showOnStartup: false
+  minimap:
+    plugins:
+      "git-diff": true
+      "highlight-selected": true
+  core:
+    disabledPackages: [
+      "themed-settings"
+    ]
+  editor:
+    invisibles: {}
+    fontSize: 14
+    showInvisibles: true
