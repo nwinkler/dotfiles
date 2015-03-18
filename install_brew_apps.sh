@@ -73,6 +73,8 @@ brew install brew-cask
 
 brew tap caskroom/versions
 
+brew tap caskroom/fonts
+
 export HOMEBREW_CASK_OPTS=--appdir=/Applications
 
 sudo chown root:staff /Applications
@@ -108,6 +110,8 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
+
+brew cask install font-sauce-code-powerline
 
 sudo chown root:admin /Applications
 
