@@ -51,8 +51,10 @@
   core:
     disabledPackages: [
       "themed-settings"
+      "symbols-view"
     ]
   editor:
     invisibles: {}
     fontSize: 14
     showInvisibles: true
+  "autocomplete-plus": {}
