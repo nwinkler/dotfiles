@@ -2,7 +2,7 @@
 
 export MAVEN_OPTS=-Xmx512m
 
-set_java_home 1.6 -silent
+set_java_home 1.7 -silent
 
 export PATH=~/bin:/usr/local/sbin:${PATH}
 
@@ -11,4 +11,3 @@ export HISTIGNORE=' *'
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 export GIT_HOSTING='ssh://git@ssh.github.com:443/'
-
