@@ -48,6 +48,7 @@
     plugins:
       "git-diff": true
       "highlight-selected": true
+      "find-and-replace": true
   core:
     disabledPackages: [
       "themed-settings"
