@@ -59,3 +59,5 @@
     fontSize: 14
     showInvisibles: true
   "autocomplete-plus": {}
+  "open-in":
+    applications: "SourceTree,Terminal,Finder,WebStorm"
