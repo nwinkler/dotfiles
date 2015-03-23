@@ -12,12 +12,14 @@ export BASH_IT_HTTPS_PROXY_ALT=$BASH_IT_HTTP_PROXY_ALT
 export BASH_IT_HTTP_PROXY=http://10.244.145.252:8080
 export BASH_IT_HTTPS_PROXY=$BASH_IT_HTTP_PROXY
 
+export BASH_IT_NO_PROXY=services.sungard.com,127.0.0.1,localhost
+
 export http_proxy=$BASH_IT_HTTP_PROXY
 export https_proxy=$BASH_IT_HTTPS_PROXY
 export HTTP_PROXY=$http_proxy
 export HTTPS_PROXY=$https_proxy
 export ALL_PROXY=$http_proxy
-export no_proxy=services.sungard.com
+export no_proxy=$BASH_IT_NO_PROXY
 export NO_PROXY=$no_proxy
 
 export HISTIGNORE=' *'
