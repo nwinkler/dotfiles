@@ -113,7 +113,7 @@ brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
 
-brew cask install font-sauce-code-powerline
+brew cask install font-source-code-pro-for-powerline
 
 sudo chown root:admin /Applications
 
