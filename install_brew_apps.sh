@@ -89,6 +89,8 @@ brew cask install evernote
 
 brew cask install gimp
 
+brew cask install hiss
+
 brew cask install java
 
 #brew cask install keepassx
