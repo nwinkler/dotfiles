@@ -83,6 +83,8 @@ brew cask install mou
 
 brew cask install atom
 
+brew cask install diffmerge
+
 brew cask install dropbox
 
 brew cask install evernote
