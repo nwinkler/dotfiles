@@ -51,13 +51,21 @@
       "find-and-replace": true
   core:
     disabledPackages: [
+      "term"
+      "atom-jshint"
+      "file-icons"
       "themed-settings"
       "symbols-view"
+    ]
+    themes: [
+      "seti-ui"
+      "seti-monokai"
     ]
   editor:
     invisibles: {}
     fontSize: 14
     showInvisibles: true
+    softWrapHangingIndent: 4
   "autocomplete-plus": {}
   "open-in":
     applications: "SourceTree,Terminal,Finder,WebStorm"
