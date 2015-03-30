@@ -40,7 +40,7 @@ brew install mplayer
 
 brew install mysql
 
-brew install node
+brew install node010
 
 brew install osxutils
 
