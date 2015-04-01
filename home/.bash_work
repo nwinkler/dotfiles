@@ -14,7 +14,7 @@ export BASH_IT_HTTPS_PROXY=$BASH_IT_HTTP_PROXY
 
 export BASH_IT_NO_PROXY=services.sungard.com,127.0.0.1,localhost
 
-enable_proxy
+enable-proxy
 
 export HISTIGNORE=' *'
 
