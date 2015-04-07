@@ -126,3 +126,10 @@ sudo gem install git-up
 # Atom packages
 
 apm stars --install
+
+# Zoom tool - https://bitbucket.org/mjwhitta/zoom
+mkdir -p ~/workspaces/tools
+git clone https://bitbucket.org/mjwhitta/zoom ~/workspaces/tools/zoom
+cd ~/workspaces/tools/zoom
+./install_zoom.sh
+cd
