@@ -99,6 +99,8 @@ brew cask install java
 
 brew cask install keepassx0
 
+brew cask install kindle
+
 brew cask install licecap
 
 brew cask install mysqlworkbench
