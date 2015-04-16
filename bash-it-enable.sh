@@ -18,6 +18,7 @@ bash-it enable alias vagrant
 bash-it enable completion bash-it
 bash-it enable completion brew
 bash-it enable completion defaults
+bash-it enable completion dirs
 bash-it enable completion git
 bash-it enable completion git_flow
 bash-it enable completion homesick
