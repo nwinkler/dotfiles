@@ -127,7 +127,13 @@ sudo chown root:admin /Applications
 
 # Gem tools
 
+# https://github.com/aanand/git-up
 sudo gem install git-up
+
+# Python tools
+
+# https://github.com/nvbn/thefuck
+sudo pip install thefuck
 
 # Atom packages
 
