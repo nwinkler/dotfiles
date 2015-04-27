@@ -85,6 +85,8 @@ brew cask install atom
 
 brew cask install diffmerge
 
+brew cask install disk-inventory-x
+
 brew cask install dropbox
 
 brew cask install evernote
