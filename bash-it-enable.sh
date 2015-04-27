@@ -4,6 +4,7 @@ source ~/.bash_it/bash_it.sh
 
 # Aliases
 bash-it enable alias ansible
+bash-it enable alias fuck
 bash-it enable alias general
 bash-it enable alias git
 bash-it enable alias gitsvn
