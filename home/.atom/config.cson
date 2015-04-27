@@ -69,3 +69,4 @@
   "autocomplete-plus": {}
   "open-in":
     applications: "SourceTree,Terminal,Finder,WebStorm"
+  bookmarklet: {}
