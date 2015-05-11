@@ -1,0 +1,1 @@
+{"hostList":"[{\"alias\":\"\",\"hostname\":\"emeafraapps046\",\"directory\":\"/home/bamboo3/bamboo3-agent/xml-data/build-dir\",\"username\":\"bamboo3\",\"port\":\"22\",\"localFiles\":\"[]\",\"useAgent\":true,\"usePrivateKey\":false,\"usePassword\":false,\"deserializer\":\"SftpHost\"}]","deserializer":"InterProcessData"}

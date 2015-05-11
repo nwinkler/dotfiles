@@ -39,7 +39,10 @@
     "atom-ctags":
       cmdArgs: "--exclude=node_modules"
   "autoclose-html": {}
-  linter: {}
+  linter:
+    ignoredLinterErrors: [
+      "jshint"
+    ]
   "exception-reporting":
     userId: "3e371242-4a5b-6e92-780d-36c1679a069e"
   welcome:
@@ -70,3 +73,4 @@
   "open-in":
     applications: "SourceTree,Terminal,Finder,WebStorm"
   bookmarklet: {}
+  "remote-edit": {}
