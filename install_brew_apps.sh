@@ -151,6 +151,12 @@ cd ~/workspaces/tools/zoom
 cd
 
 # Node tools
-npm install -g http-server
+npm install -g bower
+npm install -g grunt-cli
+npm install -g yo
 npm install -g git-bc
 npm install -g git-open
+npm install -g forever
+npm install -g nodemon
+npm install -g http-server
+npm install -g ungit
