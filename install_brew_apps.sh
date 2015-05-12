@@ -66,7 +66,7 @@ brew install vim
 
 brew install wget
 
-brew install subversion16
+brew install subversion
 
 brew install dos2unix
 
