@@ -43,6 +43,5 @@ bash-it enable plugin maven
 bash-it enable plugin node
 bash-it enable plugin osx
 bash-it enable plugin proxy
-bash-it enable plugin python
 bash-it enable plugin ssh
 bash-it enable plugin subversion

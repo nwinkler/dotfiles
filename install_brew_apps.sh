@@ -26,6 +26,8 @@ brew install git
 
 brew install git-flow-avh
 
+brew install httpie
+
 brew install lame
 
 brew install links
@@ -147,3 +149,8 @@ git clone https://bitbucket.org/mjwhitta/zoom ~/workspaces/tools/zoom
 cd ~/workspaces/tools/zoom
 ./install_zoom.sh
 cd
+
+# Node tools
+npm install -g http-server
+npm install -g git-bc
+npm install -g git-open
