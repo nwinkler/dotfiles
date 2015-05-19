@@ -139,6 +139,9 @@ sudo gem install git-up
 # https://github.com/nvbn/thefuck
 sudo pip install thefuck
 
+# http://pygments.org/
+sudo pip install Pygments
+
 # Atom packages
 
 apm stars --install
