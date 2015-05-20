@@ -64,6 +64,8 @@ brew install unison
 
 brew install vim
 
+brew install wdiff
+
 brew install wget
 
 brew install subversion
