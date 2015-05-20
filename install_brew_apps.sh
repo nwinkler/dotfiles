@@ -22,6 +22,8 @@ brew install ffmpeg
 
 brew install freetype
 
+brew install gawk
+
 brew install git
 
 brew install git-flow-avh
