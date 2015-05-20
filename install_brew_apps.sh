@@ -48,6 +48,8 @@ brew install node010
 
 brew install osxutils
 
+brew install pkgdiff
+
 brew install proctools
 
 brew install rsync
