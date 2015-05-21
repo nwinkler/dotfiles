@@ -52,6 +52,8 @@ brew install pkgdiff
 
 brew install proctools
 
+brew install psgrep
+
 brew install rsync
 
 brew install squid
