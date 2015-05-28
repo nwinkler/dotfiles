@@ -38,7 +38,8 @@
       enableUnderline: true
     "atom-ctags":
       cmdArgs: "--exclude=node_modules"
-  "autoclose-html": {}
+  "autoclose-html":
+    {}
   linter:
     ignoredLinterErrors: [
       "jshint"
@@ -65,12 +66,19 @@
       "seti-monokai"
     ]
   editor:
-    invisibles: {}
+    invisibles:
+      {}
     fontSize: 14
     showInvisibles: true
     softWrapHangingIndent: 4
-  "autocomplete-plus": {}
+    fontFamily: "Source Code Pro for Powerline"
+  "autocomplete-plus":
+    {}
   "open-in":
     applications: "SourceTree,Terminal,Finder,WebStorm"
-  bookmarklet: {}
-  "remote-edit": {}
+  bookmarklet:
+    {}
+  "remote-edit":
+    {}
+  "atom-beautify":
+    _analyticsUserId: "ff552d25-0c1a-477f-af9f-fc5638e3436b"

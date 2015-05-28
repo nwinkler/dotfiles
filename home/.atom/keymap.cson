@@ -25,3 +25,6 @@
 
 '.platform-darwin .editor':
   'shift-cmd-H': 'git-plus:menu'
+
+'atom-text-editor:not(.mini)':
+  'ctrl-alt-b': 'atom-beautify:beautify-editor'
