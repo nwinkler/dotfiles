@@ -13,9 +13,6 @@ export BASH_IT_THEME='powerline-multiline'
 export EDITOR="vim"
 export GIT_EDITOR='vim'
 
-# Set the path nginx
-export NGINX_PATH='/opt/nginx'
-
 # Don't check mail when opening terminal.
 unset MAILCHECK
 
