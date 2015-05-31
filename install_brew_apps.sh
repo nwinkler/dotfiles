@@ -154,11 +154,11 @@ sudo pip install Pygments
 
 apm stars --install
 
-# Zoom tool - https://bitbucket.org/mjwhitta/zoom
+# Zoom tool - https://gitlab.com/mjwhitta/zoom
 mkdir -p ~/workspaces/tools
-git clone https://bitbucket.org/mjwhitta/zoom ~/workspaces/tools/zoom
+git clone https://gitlab.com/mjwhitta/zoom.git ~/workspaces/tools/zoom
 cd ~/workspaces/tools/zoom
-./install_zoom.sh
+./install.sh
 cd
 
 # Node tools
