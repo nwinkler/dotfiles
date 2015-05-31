@@ -23,7 +23,7 @@
 '.platform-darwin .atom-text-editor, .atom-workspace':
   'ctrl-cmd-i': 'script:run'
 
-'.platform-darwin .atom-text-editor':
+'atom-text-editor':
   'shift-cmd-H': 'git-plus:menu'
 
 'atom-text-editor:not(.mini)':
