@@ -17,13 +17,13 @@
 #   'ctrl-p': 'core:move-down'
 #
 
-'.workspace .editor:not(.mini), .workspace':
+'.atom-workspace .atom-text-editor:not(.mini), .atom-workspace':
   'cmd-<': 'unset!'
 
-'.platform-darwin .editor, .workspace':
+'.platform-darwin .atom-text-editor, .atom-workspace':
   'ctrl-cmd-i': 'script:run'
 
-'.platform-darwin .editor':
+'.platform-darwin .atom-text-editor':
   'shift-cmd-H': 'git-plus:menu'
 
 'atom-text-editor:not(.mini)':
