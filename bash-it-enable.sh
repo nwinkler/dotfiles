@@ -25,6 +25,7 @@ bash-it enable completion git
 bash-it enable completion git_flow
 bash-it enable completion homesick
 bash-it enable completion maven
+bash-it enable completion npm
 bash-it enable completion ssh
 bash-it enable completion vagrant
 
