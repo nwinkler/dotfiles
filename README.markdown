@@ -24,5 +24,9 @@ Thanks
 
 * [homesick](https://github.com/technicalpickles/homesick)
 * [Michael J. Smalley](https://github.com/michaeljsmalley/dotfiles) for the _vim_ configuration.
-* [bash-it](https://github.com/revans/bash-it) for the _bash-it_ set of tools. [My bash-it fork](https://github.com/nwinkler/bash-it)
+* [Bash-it](https://github.com/bash-it/bash-it) for the _Bash-it_ framework. [My Bash-it fork](https://github.com/nwinkler/bash-it)
 
+License
+-------
+
+Copyright (c) 2015 Nils Winkler. Licensed under the MIT license.
