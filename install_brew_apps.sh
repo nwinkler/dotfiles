@@ -12,6 +12,8 @@ brew install boot2docker
 
 brew install coreutils
 
+brew install cv
+
 brew install docker
 
 brew install editorconfig
