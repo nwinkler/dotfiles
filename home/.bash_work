@@ -23,3 +23,5 @@ export HISTIGNORE=' *'
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 export GIT_HOSTING='git@github.com:'
+
+export LANG=en_EN.UTF-8
