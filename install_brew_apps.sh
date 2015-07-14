@@ -30,6 +30,8 @@ brew install git
 
 brew install git-flow-avh
 
+brew install htop-osx
+
 brew install httpie
 
 brew install lame
