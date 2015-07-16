@@ -37,6 +37,7 @@ bash-it enable plugin battery
 bash-it enable plugin browser
 bash-it enable plugin dirs
 bash-it enable plugin docker
+bash-it enable plugin boot2docker
 bash-it enable plugin extract
 bash-it enable plugin git
 bash-it enable plugin java
