@@ -16,6 +16,8 @@ brew install cv
 
 brew install docker
 
+brew install docker-machine
+
 brew install editorconfig
 
 brew install faac
