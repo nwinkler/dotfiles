@@ -156,6 +156,9 @@ sudo pip install thefuck
 # http://pygments.org/
 sudo pip install Pygments
 
+# https://github.com/nicolargo/glances
+sudo pip install glances
+
 # Atom packages
 
 apm stars --install
