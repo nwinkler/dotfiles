@@ -74,6 +74,8 @@ brew install tree
 
 brew install unison
 
+brew install unrar
+
 brew install vim
 
 brew install wdiff
