@@ -150,6 +150,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | b
 nvm install 0.10
 nvm install stable
 nvm use stable
+nvm alias default stable
 
 # Gem tools
 
