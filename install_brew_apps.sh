@@ -50,8 +50,6 @@ brew install mplayer
 
 brew install mysql
 
-brew install node010
-
 brew install osxutils
 
 brew install pkgdiff
