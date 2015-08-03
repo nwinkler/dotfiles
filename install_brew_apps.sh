@@ -145,6 +145,12 @@ brew cask install font-source-code-pro-for-powerline
 
 sudo chown root:admin /Applications
 
+# nvm - https://github.com/creationix/nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
+nvm install 0.10
+nvm install stable
+nvm use stable
+
 # Gem tools
 
 # https://github.com/aanand/git-up
