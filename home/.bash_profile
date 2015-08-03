@@ -22,8 +22,8 @@ unset MAILCHECK
 # https://github.com/xvzf/vcprompt
 #export VCPROMPT_EXECUTABLE=~/.vcprompt/bin/vcprompt
 
-# Load Bash It
-source $BASH_IT/bash_it.sh
-
 export NVM_DIR="/Users/nils.winkler/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Load Bash It
+source $BASH_IT/bash_it.sh
