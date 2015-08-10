@@ -127,6 +127,11 @@ brew cask install mysqlworkbench
 
 brew cask install netspot
 
+brew cask install p4merge
+
+curl http://pempek.net/files/git-p4merge/mac/p4merge -o ~/bin/p4merge
+chmod +x ~/bin/p4merge
+
 brew cask install skitch
 
 brew cask install the-unarchiver
