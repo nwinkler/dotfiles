@@ -101,6 +101,8 @@ brew cask install mou
 
 brew cask install atom
 
+brew cask install backuploupe
+
 brew cask install diffmerge
 
 brew cask install disk-inventory-x
@@ -120,6 +122,8 @@ brew cask install java
 brew cask install keepassx0
 
 brew cask install kindle
+
+brew cask install launchcontrol
 
 brew cask install licecap
 
