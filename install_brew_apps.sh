@@ -97,8 +97,6 @@ export HOMEBREW_CASK_OPTS=--appdir=/Applications
 
 sudo chown root:staff /Applications
 
-brew cask install mou
-
 brew cask install atom
 
 brew cask install backuploupe
@@ -126,6 +124,10 @@ brew cask install kindle
 brew cask install launchcontrol
 
 brew cask install licecap
+
+brew cask install mac-linux-usb-loader
+
+brew cask install mou
 
 brew cask install mysqlworkbench
 
