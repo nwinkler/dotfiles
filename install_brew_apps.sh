@@ -60,6 +60,9 @@ brew install psgrep
 
 brew install rsync
 
+# http://apple.stackexchange.com/questions/135565/how-do-i-get-detailed-smart-disk-information-on-os-x-mavericks-or-later
+brew install smartmontools
+
 brew install squid
 
 brew install ssh-copy-id
