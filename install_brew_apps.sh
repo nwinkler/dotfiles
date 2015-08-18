@@ -143,6 +143,8 @@ chmod +x ~/bin/p4merge
 
 brew cask install skitch
 
+brew cask install superduper
+
 brew cask install the-unarchiver
 
 brew cask install webstorm
