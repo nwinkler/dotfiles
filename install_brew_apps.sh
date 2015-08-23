@@ -110,6 +110,8 @@ brew cask install disk-inventory-x
 
 brew cask install dropbox
 
+brew cask install etrecheck
+
 brew cask install evernote
 
 brew cask install gimp
