@@ -104,6 +104,8 @@ brew cask install atom
 
 brew cask install backuploupe
 
+brew cask install clipmenu
+
 brew cask install diffmerge
 
 brew cask install disk-inventory-x
