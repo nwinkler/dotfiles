@@ -1,7 +1,5 @@
 #!/bin/bash
 
-brew tap homebrew/versions
-
 brew install ack
 
 brew install ansible
@@ -88,13 +86,6 @@ brew install youtube-dl
 brew install subversion
 
 brew install dos2unix
-
-brew tap phinze/cask
-brew install brew-cask
-
-brew tap caskroom/versions
-
-brew tap caskroom/fonts
 
 export HOMEBREW_CASK_OPTS=--appdir=/Applications
 
