@@ -39,7 +39,7 @@ Thanks
 * [homesick](https://github.com/technicalpickles/homesick)
 * [Michael J. Smalley](https://github.com/michaeljsmalley/dotfiles) for the _vim_ configuration.
 * [Mathias Bynens](https://github.com/mathiasbynens/dotfiles) for the OS X settings.
-* [Bash-it](https://github.com/bash-it/bash-it) for the _Bash-it_ framework. [My Bash-it fork](https://github.com/nwinkler/bash-it)
+* [Bash-it](https://github.com/bash-it/bash-it) for the _Bash-it_ framework. [My Bash-it fork](https://github.com/nwinkler/bash-it).
 
 License
 -------
