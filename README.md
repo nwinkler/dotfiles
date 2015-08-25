@@ -3,7 +3,12 @@ dotfiles
 
 My collection of dotfiles, maintained through [homesick](https://github.com/technicalpickles/homesick).
 
-Installation
+## Preparation
+
+* Make sure that your user is able to run `sudo`.
+* Install the Xcode Developer Tools: `xcode-select --install`
+
+## Installation
 ------------
 
 Install homesick first
@@ -25,6 +30,8 @@ To install additional tools, run the following scripts (in this order):
 * `install_general.sh`: This will install a standard set of tools (command line and UI).
 * `install_dev.sh`: Optional file, will install a set of development tools - only run if you plan to use the machine for software development.
 * `osx-settings.sh`: Based on [Mathias Bynens' Dotfiles](https://github.com/mathiasbynens/dotfiles), a common set of OS X settings.
+
+Then log out and back in again to apply the changes.
 
 Thanks
 ------
