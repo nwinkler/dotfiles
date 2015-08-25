@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 
-source ~/.bash_it/bash_it.sh
+export $BASH_IT=~/.bash_it
+
+if [ ! -d "$BASH_IT" ]; then
+  git clone https://github.com/nwinkler/bash-it.git "$BASH_IT"
+fi
+
+source "$BASH_IT"/bash_it.sh
 
 # Aliases
 bash-it enable alias ansible
