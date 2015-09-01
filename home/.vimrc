@@ -78,3 +78,4 @@ set nowrap                " don't wrap text
 
 let g:airline_powerline_fonts = 1
 set noshowmode
+set shell=/bin/bash\ --login
