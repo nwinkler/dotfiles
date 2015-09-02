@@ -5,7 +5,9 @@ My collection of dotfiles, maintained through [homesick](https://github.com/tech
 
 ## Preparation
 
-* Make sure that your user is able to run `sudo`.
+* Make sure that your user is able to run `sudo`. This should work out of the box if your user is listed as an administrator of the machine. If not, follow [this guide](http://osxdaily.com/2014/02/06/add-user-sudoers-file-mac/) to add your user to the `/etc/sudoers` file: `sudo visudo`
+* Make sure that you have a stable internet connection.
+* If you need to use a proxy to access the internet, make sure your terminal is set up to use the proxy (environment variables, etc.).
 * Install the Xcode Developer Tools: `xcode-select --install`
 
 ## Installation
