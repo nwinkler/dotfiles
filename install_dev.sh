@@ -45,8 +45,6 @@ chmod +x ~/bin/p4merge
 
 brew cask install webstorm
 
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
-
 brew cask install virtualbox
 brew cask install vagrant
 brew cask install vagrant-manager
