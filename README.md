@@ -8,7 +8,7 @@ My collection of dotfiles, maintained through [homesick](https://github.com/tech
 * Make sure that your user is able to run `sudo`. This should work out of the box if your user is listed as an administrator of the machine. If not, follow [this guide](http://osxdaily.com/2014/02/06/add-user-sudoers-file-mac/) to add your user to the `/etc/sudoers` file: `sudo visudo`
 * Make sure that you have a stable internet connection.
 * If you need to use a proxy to access the internet, make sure your terminal is set up to use the proxy (environment variables, etc.).
-* Install the Xcode Developer Tools: `xcode-select --install`
+* Install the Xcode Developer Tools: `xcode-select --install`. This will prompt you to download the Xcode Developer Tools, which include required tools like `git`. Using this method prevents you from having to download the full 2+GB Xcode installer.
 
 ## Installation
 ------------
