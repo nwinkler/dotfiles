@@ -18,6 +18,8 @@ brew install gawk
 
 brew install git
 
+brew install git-extras
+
 brew install htop-osx
 
 brew install httpie
