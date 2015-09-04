@@ -37,6 +37,7 @@ bash-it enable completion ssh
 bash-it enable completion vagrant
 
 # Plugins
+bash-it enable plugin alias-completion
 bash-it enable plugin audio
 bash-it enable plugin base
 bash-it enable plugin battery
