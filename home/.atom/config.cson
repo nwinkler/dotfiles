@@ -59,6 +59,8 @@
       "file-icons"
       "themed-settings"
       "symbols-view"
+      "iTunes"
+      "search"
     ]
     themes: [
       "seti-ui"
@@ -86,3 +88,8 @@
     fontWeight: "Regular"
   "one-dark-ui":
     layoutMode: "Compact"
+  "linter-jshint": {}
+  "linter-js-standard":
+    style: "semi-standard"
+    honorStyleSettings: true
+    checkStyleDevDependencies: true
