@@ -2,6 +2,8 @@
 
 brew install ack
 
+brew install bash-completion
+
 brew install coreutils
 
 brew install cv
