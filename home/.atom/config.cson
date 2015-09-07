@@ -93,3 +93,4 @@
     style: "semi-standard"
     honorStyleSettings: true
     checkStyleDevDependencies: true
+  "merge-conflicts": {}
