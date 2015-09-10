@@ -32,6 +32,8 @@ brew install links
 
 brew install mplayer
 
+brew install netcat
+
 brew install osxutils
 
 brew install pkgdiff
