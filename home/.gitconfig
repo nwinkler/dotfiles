@@ -27,10 +27,10 @@
     spull = !git checkout master && git-svn fetch && git-svn rebase && git checkout - && git rebase master
     spush = !git checkout master && git-svn dcommit && git checkout -
 [difftool "sourcetree"]
-	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+	cmd = /opt/homebrew-cask/Caskroom/diffmerge/4.2.0.697/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	cmd = /opt/homebrew-cask/Caskroom/diffmerge/4.2.0.697/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 	trustExitCode = true
 [http]
 	postBuffer = 524288000
