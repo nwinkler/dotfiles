@@ -51,6 +51,9 @@ brew install the_silver_searcher
 
 brew install tree
 
+# https://bitbucket.org/WAHa_06x36/theunarchiver
+brew install unar
+
 brew install unison
 
 brew install unrar
