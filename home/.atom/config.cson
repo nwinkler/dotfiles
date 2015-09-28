@@ -94,5 +94,4 @@
     honorStyleSettings: true
     checkStyleDevDependencies: true
   "merge-conflicts": {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
