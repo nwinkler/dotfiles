@@ -12,6 +12,8 @@ brew install docker-machine
 
 brew install git-flow-avh
 
+brew install jenv
+
 brew install maven
 
 brew install mongodb
