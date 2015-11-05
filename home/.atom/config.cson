@@ -66,6 +66,9 @@
       "seti-ui"
       "seti-monokai"
     ]
+    packagesWithKeymapsDisabled: [
+      "sort-lines"
+    ]
   editor:
     invisibles: {}
     showInvisibles: true
