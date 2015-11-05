@@ -80,6 +80,8 @@ brew cask install backuploupe
 
 brew cask install clipmenu
 
+brew cask install cscreen
+
 brew cask install disk-inventory-x
 
 brew cask install dropbox
