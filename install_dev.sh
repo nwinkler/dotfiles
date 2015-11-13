@@ -70,6 +70,6 @@ npm install -g git-bc
 npm install -g git-open
 npm install -g forever
 npm install -g nodemon
-npm install -g node-check
+npm install -g npm-check-updates
 npm install -g http-server
 npm install -g ungit
