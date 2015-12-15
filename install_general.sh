@@ -140,5 +140,5 @@ apm stars --install --user nwinkler
 mkdir -p ~/workspaces/tools
 git clone https://gitlab.com/mjwhitta/zoom.git ~/workspaces/tools/zoom
 cd ~/workspaces/tools/zoom
-./install.sh
+sudo rake install
 cd
