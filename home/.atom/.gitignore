@@ -5,3 +5,4 @@ packages
 storage
 .apm/
 .apmrc
+blob-store
