@@ -4,11 +4,11 @@ brew install ansible
 
 brew install ant
 
-brew install boot2docker
-
 brew install docker
 
 brew install docker-machine
+
+brew install docker-compose
 
 brew install git-flow-avh
 
