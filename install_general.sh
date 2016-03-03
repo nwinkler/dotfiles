@@ -49,6 +49,8 @@ brew install ssh-copy-id
 
 brew install the_silver_searcher
 
+brew install todo-txt
+
 brew install tree
 
 # https://bitbucket.org/WAHa_06x36/theunarchiver
