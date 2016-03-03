@@ -1,16 +1,9 @@
 "*":
   "*":
-    "exception-reporting":
-      userId: "db51cad4-82e1-4bc0-cc93-449bd743d7e9"
-    "release-notes":
-      viewedVersion: "0.92.0"
-    welcome:
-      showOnStartup: false
-    metrics:
-      userId: "f98723003432ede403e38c56f7fee9ad398c422e"
-    editor:
-      showInvisibles: true
-      fontSize: 14
+    "atom-ctags":
+      cmdArgs: "--exclude=node_modules"
+    "browser-refresh":
+      saveFilesBeforeRefresh: true
     core:
       disabledPackages: [
         "term"
@@ -23,35 +16,34 @@
         "seti-ui"
         "seti-monokai"
       ]
-    minimap:
-      plugins:
-        "highlight-selected": true
-        "git-diff": true
-        "find-and-replace": true
-    "browser-refresh":
-      saveFilesBeforeRefresh: true
-    iTunes:
-      "showEqualizer (WindowResizePerformanceIssue)": false
-    "open-in":
-      applications: "SourceTree,Terminal,Finder,WebStorm"
+    editor:
+      fontSize: 14
+      showInvisibles: true
+    "exception-reporting":
+      userId: "db51cad4-82e1-4bc0-cc93-449bd743d7e9"
     "highlight-line":
       enableUnderline: true
-    "atom-ctags":
-      cmdArgs: "--exclude=node_modules"
+    iTunes:
+      "showEqualizer (WindowResizePerformanceIssue)": false
+    metrics:
+      userId: "f98723003432ede403e38c56f7fee9ad398c422e"
+    minimap:
+      plugins:
+        "find-and-replace": true
+        "git-diff": true
+        "highlight-selected": true
+    "open-in":
+      applications: "SourceTree,Terminal,Finder,WebStorm"
+    "release-notes":
+      viewedVersion: "0.92.0"
+    welcome:
+      showOnStartup: false
+  "atom-beautify":
+    _analyticsUserId: "ff552d25-0c1a-477f-af9f-fc5638e3436b"
   "autoclose-html": {}
-  linter:
-    ignoredLinterErrors: [
-      "jshint"
-    ]
-  "exception-reporting":
-    userId: "3e371242-4a5b-6e92-780d-36c1679a069e"
-  welcome:
-    showOnStartup: false
-  minimap:
-    plugins:
-      "git-diff": true
-      "highlight-selected": true
-      "find-and-replace": true
+  "autocomplete-plus":
+    enableAutoActivation: false
+  bookmarklet: {}
   core:
     disabledPackages: [
       "term"
@@ -62,39 +54,49 @@
       "iTunes"
       "search"
     ]
+    packagesWithKeymapsDisabled: [
+      "sort-lines"
+    ]
     themes: [
       "seti-ui"
       "seti-monokai"
     ]
-    packagesWithKeymapsDisabled: [
-      "sort-lines"
-    ]
   editor:
+    fontFamily: "Source Code Pro for Powerline"
     invisibles: {}
     showInvisibles: true
     softWrapHangingIndent: 4
-    fontFamily: "Source Code Pro for Powerline"
-  "autocomplete-plus":
-    enableAutoActivation: false
-  "open-in":
-    applications: "SourceTree,Terminal,Finder,WebStorm"
-  bookmarklet: {}
-  "remote-edit": {}
-  "atom-beautify":
-    _analyticsUserId: "ff552d25-0c1a-477f-af9f-fc5638e3436b"
-  wordcount: {}
+  "exception-reporting":
+    userId: "3e371242-4a5b-6e92-780d-36c1679a069e"
+  "git-log":
+    fontScale: 0.8
   "highlight-line":
     enableBackgroundColor: false
-  "view-tail-large-files": {}
   "isotope-ui":
     fontFamily: "Source Sans Pro"
     fontWeight: "Regular"
+  linter:
+    ignoredLinterErrors: [
+      "jshint"
+    ]
+  "linter-js-standard":
+    checkStyleDevDependencies: true
+    honorStyleSettings: true
+    style: "semi-standard"
+  "linter-jshint": {}
+  "merge-conflicts": {}
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "git-diff": true
+      "highlight-selected": true
   "one-dark-ui":
     layoutMode: "Compact"
-  "linter-jshint": {}
-  "linter-js-standard":
-    style: "semi-standard"
-    honorStyleSettings: true
-    checkStyleDevDependencies: true
-  "merge-conflicts": {}
+  "open-in":
+    applications: "SourceTree,Terminal,Finder,WebStorm"
+  "remote-edit": {}
   "tree-view": {}
+  "view-tail-large-files": {}
+  welcome:
+    showOnStartup: false
+  wordcount: {}
