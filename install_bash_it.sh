@@ -20,6 +20,7 @@ bash-it enable alias homebrew-cask
 bash-it enable alias maven
 bash-it enable alias nwinkler
 bash-it enable alias osx
+bash-it enable alias todo
 bash-it enable alias vim
 bash-it enable alias vagrant
 
@@ -55,6 +56,7 @@ bash-it enable plugin logic-pro-x
 bash-it enable plugin maven
 bash-it enable plugin node
 bash-it enable plugin osx
+bash-it enable plugin todo
 bash-it enable plugin proxy
 bash-it enable plugin ssh
 bash-it enable plugin subversion
