@@ -69,6 +69,8 @@ brew install wget
 brew install youtube-dl
 
 brew install --universal --with-java subversion
+sudo mkdir -p /Library/Java/Extensions
+sudo ln -s /usr/local/lib/libsvnjavahl-1.dylib /Library/Java/Extensions/libsvnjavahl-1.dylib
 
 brew install dos2unix
 
