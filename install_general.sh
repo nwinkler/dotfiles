@@ -68,7 +68,7 @@ brew install wget
 
 brew install youtube-dl
 
-brew install subversion
+brew install --universal --java subversion
 
 brew install dos2unix
 
