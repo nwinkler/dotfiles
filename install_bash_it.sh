@@ -11,6 +11,8 @@ source "$BASH_IT"/bash_it.sh
 # Aliases
 bash-it enable alias ansible
 bash-it enable alias atom
+bash-it enable alias docker
+bash-it enable alias docker-compose
 bash-it enable alias fuck
 bash-it enable alias general
 bash-it enable alias git
@@ -46,7 +48,7 @@ bash-it enable plugin battery
 bash-it enable plugin browser
 bash-it enable plugin dirs
 bash-it enable plugin docker
-bash-it enable plugin boot2docker
+bash-it enable plugin docker-machine
 bash-it enable plugin extract
 bash-it enable plugin git
 bash-it enable plugin java
