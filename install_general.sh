@@ -20,6 +20,8 @@ brew install gawk
 
 brew install git
 
+brew install git-lfs
+
 brew install --HEAD git-extras
 
 brew install htop-osx
