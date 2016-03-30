@@ -145,8 +145,14 @@ sudo pip install glances
 apm stars --install --user nwinkler
 
 # Zoom tool - https://gitlab.com/mjwhitta/zoom
-#mkdir -p ~/workspaces/tools
-#git clone https://gitlab.com/mjwhitta/zoom.git ~/workspaces/tools/zoom
-#cd ~/workspaces/tools/zoom
-#sudo rake install
-#cd
+mkdir -p ~/workspaces/tools
+git clone https://gitlab.com/mjwhitta/zoom.git ~/workspaces/tools/zoom
+cd ~/workspaces/tools/zoom
+sudo rake install
+cd /usr/local/bin
+# In order to avoid confusion with the `z` function from fasd
+sudo ln -s z zo
+cd
+/usr/local/bin/z --switch=ag
+# Required for using `zo` as an alias for the `z` command
+/usr/local/bin/z --rename=zo
