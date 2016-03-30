@@ -50,6 +50,7 @@ bash-it enable plugin dirs
 bash-it enable plugin docker
 bash-it enable plugin docker-machine
 bash-it enable plugin extract
+bash-it enable plugin fasd
 bash-it enable plugin git
 bash-it enable plugin java
 bash-it enable plugin javascript

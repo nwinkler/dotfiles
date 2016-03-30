@@ -12,6 +12,8 @@ brew install editorconfig
 
 brew install faac
 
+brew install fasd
+
 brew install ffmpeg
 
 brew install freetype
@@ -143,8 +145,8 @@ sudo pip install glances
 apm stars --install --user nwinkler
 
 # Zoom tool - https://gitlab.com/mjwhitta/zoom
-mkdir -p ~/workspaces/tools
-git clone https://gitlab.com/mjwhitta/zoom.git ~/workspaces/tools/zoom
-cd ~/workspaces/tools/zoom
-sudo rake install
-cd
+#mkdir -p ~/workspaces/tools
+#git clone https://gitlab.com/mjwhitta/zoom.git ~/workspaces/tools/zoom
+#cd ~/workspaces/tools/zoom
+#sudo rake install
+#cd
