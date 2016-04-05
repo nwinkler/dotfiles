@@ -43,6 +43,7 @@ bash-it enable completion vagrant
 # Plugins
 bash-it enable plugin alias-completion
 bash-it enable plugin audio
+bash-it enable plugin autojump
 bash-it enable plugin base
 bash-it enable plugin battery
 bash-it enable plugin browser

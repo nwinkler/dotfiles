@@ -2,6 +2,8 @@
 
 brew install ack
 
+brew install autojump
+
 brew install bash-completion
 
 brew install coreutils
