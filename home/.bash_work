@@ -14,7 +14,7 @@ export BASH_IT_HTTPS_PROXY=$BASH_IT_HTTP_PROXY
 
 #export BASH_IT_NO_PROXY=services.sungard.com,127.0.0.1,localhost
 # 192.168.59.103 and 192.168.99.100 are for Docker
-export BASH_IT_NO_PROXY=127.0.0.1,localhost,192.168.59.103,192.168.99.100
+export BASH_IT_NO_PROXY=127.0.0.1,localhost,192.168.59.103,192.168.99.100,services.sungard.com,repo.devcloud.sungard.com
 
 export BASH_IT_DOCKER_MACHINE=default
 
