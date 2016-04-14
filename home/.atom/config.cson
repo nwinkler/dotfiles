@@ -40,6 +40,8 @@
       showOnStartup: false
   "atom-beautify":
     _analyticsUserId: "ff552d25-0c1a-477f-af9f-fc5638e3436b"
+    general:
+      _analyticsUserId: "b8aa3701-88f3-4f5f-8fc4-a72d70e9764d"
   "autoclose-html": {}
   "autocomplete-plus":
     enableAutoActivation: false
