@@ -74,3 +74,7 @@ npm install -g npm-cache
 npm install -g npm-check-updates
 npm install -g http-server
 npm install -g ungit
+
+# Markdown Viewers
+npm install -g nd
+npm install -g msee
