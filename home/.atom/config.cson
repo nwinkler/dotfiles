@@ -39,9 +39,8 @@
     welcome:
       showOnStartup: false
   "atom-beautify":
-    _analyticsUserId: "ff552d25-0c1a-477f-af9f-fc5638e3436b"
     general:
-      _analyticsUserId: "b8aa3701-88f3-4f5f-8fc4-a72d70e9764d"
+      _analyticsUserId: "ff552d25-0c1a-477f-af9f-fc5638e3436b"
   "autoclose-html": {}
   "autocomplete-plus":
     enableAutoActivation: false
@@ -89,7 +88,7 @@
   "merge-conflicts": {}
   minimap:
     plugins:
-      "find-and-replace": true
+      "find-and-replace": false
       "find-and-replaceDecorationsZIndex": 0
       "git-diff": true
       "git-diffDecorationsZIndex": 0
@@ -100,8 +99,12 @@
   "open-in":
     applications: "SourceTree,Terminal,Finder,WebStorm"
   "remote-edit": {}
+  "seti-ui": {}
   "tree-view": {}
   "view-tail-large-files": {}
   welcome:
     showOnStartup: false
   wordcount: {}
+".diff.source":
+  editor:
+    softWrapHangingIndent: 4
