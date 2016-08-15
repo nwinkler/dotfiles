@@ -110,7 +110,7 @@ brew cask install java
 
 #brew cask install keepassx
 
-brew cask install keepassx0
+brew cask install dwihn0r-keepassx
 
 brew cask install kindle
 
