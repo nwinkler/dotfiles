@@ -74,6 +74,7 @@ npm install -g npm-cache
 npm install -g npm-check-updates
 npm install -g http-server
 npm install -g ungit
+npm install -g vtop
 
 # Markdown Viewers
 npm install -g nd
