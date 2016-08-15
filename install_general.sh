@@ -104,6 +104,8 @@ brew cask install gimp
 
 brew cask install hiss
 
+brew cask install hyperterm
+
 brew cask install java
 
 #brew cask install keepassx
