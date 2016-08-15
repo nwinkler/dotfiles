@@ -66,12 +66,19 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-      'hyperline',
-      'hyperseti',
       'hypercwd',
-      'hypertheme',
+      //'hyperseti',
+      //'hyperterm-deep-space',
+      //'hyperterm-solarized-dark',
+      //'hyperpanic',
+      //'hyperterm-monokai',
+      //'hyperterm-electron-highlighter',
       'hyperterm-paste',
-      'hyperterm-alternatescroll'
+      'hyperterm-alternatescroll',
+      'hyperborder',
+      //'hyperterm-mactabs',
+      'hyperterm-tab-icons',
+      'hyperterm-dibdabs'
   ],
 
   // in development, you can create a directory under
