@@ -28,6 +28,7 @@ bash-it enable alias vagrant
 
 # Completions
 bash-it enable completion bash-it
+bash-it enable completion apm
 bash-it enable completion brew
 bash-it enable completion defaults
 bash-it enable completion dirs
