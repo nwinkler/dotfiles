@@ -6,8 +6,8 @@ set_java_home 1.7 -silent
 
 pathmunge ~/bin:/usr/local/sbin
 
-export HISTIGNORE=' *'
-
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 export GIT_HOSTING='ssh://git@ssh.github.com:443/'
+
+export BASH_IT_DOCKER_MACHINE="default"

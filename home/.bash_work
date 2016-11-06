@@ -19,8 +19,6 @@ export BASH_IT_DOCKER_MACHINE=default
 
 init-proxy
 
-export HISTIGNORE=' *'
-
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 export GIT_HOSTING='git@github.com:'
