@@ -42,8 +42,7 @@
     general:
       _analyticsUserId: "ff552d25-0c1a-477f-af9f-fc5638e3436b"
   "autoclose-html": {}
-  "autocomplete-plus":
-    enableAutoActivation: false
+  "autocomplete-plus": {}
   bookmarklet: {}
   core:
     disabledPackages: [
@@ -54,10 +53,12 @@
       "symbols-view"
       "iTunes"
       "search"
+      "whitespace"
     ]
     packagesWithKeymapsDisabled: [
       "sort-lines"
     ]
+    telemetryConsent: "limited"
     themes: [
       "seti-ui"
       "seti-monokai"
@@ -71,6 +72,10 @@
     userId: "3e371242-4a5b-6e92-780d-36c1679a069e"
   "git-log":
     fontScale: 0.8
+  "git-plus":
+    experimental: true
+    verboseCommits: true
+    wordDiff: false
   "highlight-line":
     enableBackgroundColor: false
   "isotope-ui":
@@ -106,5 +111,8 @@
     showOnStartup: false
   wordcount: {}
 ".diff.source":
+  editor:
+    softWrapHangingIndent: 4
+".ini.source":
   editor:
     softWrapHangingIndent: 4
