@@ -74,11 +74,12 @@ module.exports = {
       //'hyperterm-monokai',
       //'hyperterm-electron-highlighter',
       'hyperterm-paste',
-      'hyperterm-alternatescroll',
+      //'hyperterm-alternatescroll',
       'hyperborder',
       //'hyperterm-mactabs',
       'hyperterm-tab-icons',
-      'hyperterm-dibdabs'
+      'hyperterm-dibdabs',
+      'hyperterm-title'
   ],
 
   // in development, you can create a directory under
