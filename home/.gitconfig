@@ -2,7 +2,7 @@
     whitespace = nowarn
     pager = less
 	excludesfile = /Users/nils.winkler/.gitignore_global
-	autocrlf = false
+	autocrlf = input
 	#autocrlf = input
 [user]
 	name = Nils Winkler
@@ -28,10 +28,10 @@
     spull = !git checkout master && git-svn fetch && git-svn rebase && git checkout - && git rebase master
     spush = !git checkout master && git-svn dcommit && git checkout -
 [difftool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/diffmerge/4.2.0.697/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/diffmerge/4.2.0.697/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 	trustExitCode = true
 [http]
 	postBuffer = 524288000
@@ -47,6 +47,6 @@
 [rebase]
 	autosquash = true
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
 	required = true
