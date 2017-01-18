@@ -73,9 +73,8 @@
   "git-log":
     fontScale: 0.8
   "git-plus":
-    experimental: true
-    verboseCommits: true
-    wordDiff: false
+    general:
+      _analyticsUserId: "6ca73d79-b79c-4483-8c2e-efd2748b908e"
   "highlight-line":
     enableBackgroundColor: false
   "isotope-ui":
