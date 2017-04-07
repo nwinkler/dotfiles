@@ -160,3 +160,6 @@ cd
 /usr/local/bin/z --switch=ag
 # Required for using `zo` as an alias for the `z` command
 /usr/local/bin/z --rename=zo
+
+cd ~/workspaces/tools
+git clone https://github.com/sampson-chen/sack.git && cd sack && chmod +x install_sack.sh && ./install_sack.sh
