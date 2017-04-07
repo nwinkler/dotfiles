@@ -87,7 +87,6 @@
   "linter-js-standard":
     checkStyleDevDependencies: true
     honorStyleSettings: true
-    style: "semi-standard"
   "linter-jshint": {}
   "merge-conflicts": {}
   minimap:
