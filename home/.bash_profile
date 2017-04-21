@@ -17,7 +17,7 @@ unset MAILCHECK
 
 # Use ag for feeding into fzf for searching files.
 # Using ag will avoid listing ignored files
-export FZF_DEFAULT_COMMAND='ag -g ""'
+export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
 
 # Load nvm from here, since the nvm plugin is loaded after the node plugin.
 # Bash-it currently doesn't support plugin order or dependencies.
