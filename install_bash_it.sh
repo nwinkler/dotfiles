@@ -53,6 +53,7 @@ bash-it enable plugin docker
 bash-it enable plugin docker-machine
 bash-it enable plugin extract
 bash-it enable plugin fasd
+bash-it enable plugin fzf
 bash-it enable plugin git
 bash-it enable plugin java
 bash-it enable plugin javascript
@@ -60,6 +61,7 @@ bash-it enable plugin jenv
 bash-it enable plugin logic-pro-x
 bash-it enable plugin maven
 bash-it enable plugin node
+bash-it enable plugin nvm
 bash-it enable plugin osx
 bash-it enable plugin todo
 bash-it enable plugin proxy
