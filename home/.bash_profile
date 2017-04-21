@@ -15,6 +15,10 @@ export GIT_EDITOR='vim'
 # Don't check mail when opening terminal.
 unset MAILCHECK
 
+# Use ag for feeding into fzf for searching files.
+# Using ag will avoid listing ignored files
+export FZF_DEFAULT_COMMAND='ag -g ""'
+
 # Load nvm from here, since the nvm plugin is loaded after the node plugin.
 # Bash-it currently doesn't support plugin order or dependencies.
 export NVM_DIR="$HOME/.nvm"
@@ -22,3 +26,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
+
+# Load fzf completion again, since system completion (Bash-it) is run after the fzf plugin
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
