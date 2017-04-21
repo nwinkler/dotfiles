@@ -14,3 +14,11 @@
 	path = home/.vim/bundle/vim-airline
     url = https://github.com/bling/vim-airline.git
     ignore = dirty
+[submodule "home/.vim/bundle/fzf"]
+	path = home/.vim/bundle/fzf
+	url = https://github.com/junegunn/fzf.git
+	ignore = dirty
+[submodule "home/.vim/bundle/fzf.vim"]
+	path = home/.vim/bundle/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+	ignore = dirty
