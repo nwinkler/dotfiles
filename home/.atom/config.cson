@@ -42,7 +42,8 @@
     general:
       _analyticsUserId: "ff552d25-0c1a-477f-af9f-fc5638e3436b"
   "autoclose-html": {}
-  "autocomplete-plus": {}
+  "autocomplete-plus":
+    enableAutoActivation: false
   bookmarklet: {}
   core:
     disabledPackages: [
@@ -53,12 +54,11 @@
       "symbols-view"
       "iTunes"
       "search"
-      "whitespace"
     ]
     packagesWithKeymapsDisabled: [
       "sort-lines"
     ]
-    telemetryConsent: "limited"
+    telemetryConsent: "no"
     themes: [
       "seti-ui"
       "seti-monokai"
@@ -74,7 +74,7 @@
     fontScale: 0.8
   "git-plus":
     general:
-      _analyticsUserId: "6ca73d79-b79c-4483-8c2e-efd2748b908e"
+      _analyticsUserId: "9bfdf2b2-7e6c-4fb1-a133-a06d317fa2d7"
   "highlight-line":
     enableBackgroundColor: false
   "isotope-ui":
@@ -87,6 +87,7 @@
   "linter-js-standard":
     checkStyleDevDependencies: true
     honorStyleSettings: true
+    style: "semi-standard"
   "linter-jshint": {}
   "merge-conflicts": {}
   minimap:
@@ -109,8 +110,5 @@
     showOnStartup: false
   wordcount: {}
 ".diff.source":
-  editor:
-    softWrapHangingIndent: 4
-".ini.source":
   editor:
     softWrapHangingIndent: 4
