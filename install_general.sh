@@ -20,6 +20,8 @@ brew install ffmpeg
 
 brew install freetype
 
+brew install fzf
+
 brew install gawk
 
 brew install git
