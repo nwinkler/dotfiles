@@ -86,6 +86,8 @@ export HOMEBREW_CASK_OPTS=--appdir=/Applications
 
 sudo chown root:staff /Applications
 
+brew cask install appcleaner
+
 brew cask install atom
 
 brew cask install backuploupe
@@ -121,6 +123,8 @@ brew cask install launchcontrol
 brew cask install skitch
 
 brew cask install superduper
+
+brew cask install sourcetree
 
 brew cask install the-unarchiver
 

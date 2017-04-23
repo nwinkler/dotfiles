@@ -33,6 +33,12 @@ To install additional tools, run the following scripts (in this order):
 * `install_dev.sh`: Optional file, will install a set of development tools - only run if you plan to use the machine for software development.
 * `osx-settings.sh`: Based on [Mathias Bynens' Dotfiles](https://github.com/mathiasbynens/dotfiles), a common set of OS X settings.
 
+To update the Git submodules for vim, run this in the `dotfiles` folder:
+
+```bash
+git submodule update --init --recursive
+```
+
 Then log out and back in again to apply the changes.
 
 Thanks
