@@ -63,7 +63,7 @@
     telemetryConsent: "no"
     themes: [
       "seti-ui"
-      "seti-monokai"
+      "monokai-seti"
     ]
   editor:
     fontFamily: "Source Code Pro for Powerline"
@@ -89,7 +89,6 @@
   "linter-js-standard":
     checkStyleDevDependencies: true
     honorStyleSettings: true
-    style: "semi-standard"
   "linter-jshint": {}
   "merge-conflicts": {}
   minimap:
@@ -105,7 +104,8 @@
   "open-in":
     applications: "SourceTree,Terminal,Finder,WebStorm"
   "remote-edit": {}
-  "seti-ui": {}
+  "seti-ui":
+    themeColor: "Green"
   "tree-view": {}
   "view-tail-large-files": {}
   welcome:
