@@ -153,6 +153,8 @@ sudo pip install glances
 # Atom packages
 
 apm stars --install --user nwinkler
+apm install linter
+apm install linter-shellcheck
 
 # Zoom tool - https://gitlab.com/mjwhitta/zoom
 mkdir -p ~/workspaces/tools

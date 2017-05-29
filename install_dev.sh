@@ -4,6 +4,8 @@ brew install ansible
 
 brew install ant
 
+brew install shellcheck
+
 brew install docker
 
 brew install docker-machine
