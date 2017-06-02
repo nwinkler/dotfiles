@@ -4,6 +4,8 @@ brew install ansible
 
 brew install ant
 
+brew install ctop
+
 brew install shellcheck
 
 brew install docker
