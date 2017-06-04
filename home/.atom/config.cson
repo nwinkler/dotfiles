@@ -90,6 +90,8 @@
     checkStyleDevDependencies: true
     honorStyleSettings: true
   "linter-jshint": {}
+  "linter-ui-default":
+    showPanel: true
   "merge-conflicts": {}
   minimap:
     plugins:

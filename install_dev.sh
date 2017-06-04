@@ -8,6 +8,8 @@ brew install ctop
 
 brew install shellcheck
 
+brew install diff-so-fancy
+
 brew install docker
 
 brew install docker-machine
