@@ -19,14 +19,10 @@ unset MAILCHECK
 # Using ag will avoid listing ignored files
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
 
-# Load nvm from here, since the nvm plugin is loaded after the node plugin.
-# Bash-it currently doesn't support plugin order or dependencies.
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export BASH_IT_DOCKER_MACHINE=default
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
 
 # Load fzf completion again, since system completion (Bash-it) is run after the fzf plugin
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
-
