@@ -91,7 +91,7 @@
     honorStyleSettings: true
   "linter-jshint": {}
   "linter-ui-default":
-    showPanel: true
+    panelHeight: 36
   "merge-conflicts": {}
   minimap:
     plugins:
