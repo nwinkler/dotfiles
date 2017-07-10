@@ -101,8 +101,7 @@
       "git-diffDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
-  "one-dark-ui":
-    layoutMode: "Compact"
+  "one-dark-ui": {}
   "open-in":
     applications: "SourceTree,Terminal,Finder,WebStorm"
   "remote-edit": {}
