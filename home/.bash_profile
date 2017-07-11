@@ -24,5 +24,3 @@ export BASH_IT_DOCKER_MACHINE=default
 # Load Bash It
 source $BASH_IT/bash_it.sh
 
-# Load fzf completion again, since system completion (Bash-it) is run after the fzf plugin
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
