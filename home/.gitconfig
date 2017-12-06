@@ -6,7 +6,7 @@
 	#autocrlf = input
 [user]
 	name = Nils Winkler
-	email = Nils.Winkler@fisglobal.com
+	email = nils.winkler@fisglobal.com
 [github]
     user = nwinkler
 [color]
@@ -28,10 +28,10 @@
     spull = !git checkout master && git-svn fetch && git-svn rebase && git checkout - && git rebase master
     spush = !git checkout master && git-svn dcommit && git checkout -
 [difftool "sourcetree"]
-	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 	trustExitCode = true
 [http]
 	postBuffer = 524288000
@@ -41,7 +41,9 @@
 	helper = osxkeychain
 [https]
 [push]
-	default = simple
+    default = simple
+[diff "zip"]
+    textconv = unzip -v
 [url "https://"]
 	insteadOf = git://
 [rebase]
@@ -51,3 +53,5 @@
 	smudge = git-lfs smudge -- %f
 	required = true
 	process = git-lfs filter-process
+[commit]
+	template = /Users/nils.winkler/.stCommitMsg
