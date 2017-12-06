@@ -141,6 +141,9 @@ sudo chown root:admin /Applications
 # https://github.com/aanand/git-up
 sudo gem install git-up
 
+# https://github.com/jneen/rouge
+sudo gem install rouge
+
 # Python tools
 
 # https://github.com/nvbn/thefuck
