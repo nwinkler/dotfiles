@@ -18,7 +18,8 @@ unset MAILCHECK
 # Use ag for feeding into fzf for searching files.
 export FZF_DEFAULT_COMMAND='ag -U --hidden --ignore .git -g ""'
 # Color: https://github.com/junegunn/fzf/wiki/Color-schemes - Solarized Dark
-export FZF_DEFAULT_OPTS='--preview "rougify {} 2> /dev/null || cat {} 2> /dev/null || tree -C {} 2> /dev/null | head -100" --color dark,hl:33,hl+:37,fg+:235,bg+:136,fg+:254 --color info:254,prompt:37,spinner:108,pointer:235,marker:235'
+# Bind F1 key to toggle preview window on/off
+export FZF_DEFAULT_OPTS='--bind "F1:toggle-preview" --preview "rougify {} 2> /dev/null || cat {} 2> /dev/null || tree -C {} 2> /dev/null | head -100" --color dark,hl:33,hl+:37,fg+:235,bg+:136,fg+:254 --color info:254,prompt:37,spinner:108,pointer:235,marker:235'
 
 export BASH_IT_DOCKER_MACHINE=default
 
