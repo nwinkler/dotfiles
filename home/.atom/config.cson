@@ -63,8 +63,8 @@
     ]
     telemetryConsent: "no"
     themes: [
-      "seti-ui"
-      "monokai-seti"
+      "city-lights-ui"
+      "city-lights-syntax"
     ]
   editor:
     fontFamily: "Source Code Pro for Powerline"
