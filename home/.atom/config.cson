@@ -67,12 +67,14 @@
       "city-lights-syntax"
     ]
   editor:
-    fontFamily: "Source Code Pro for Powerline"
+    fontFamily: "Knack Nerd Font"
     invisibles: {}
     showInvisibles: true
     softWrapHangingIndent: 4
   "exception-reporting":
     userId: "3e371242-4a5b-6e92-780d-36c1679a069e"
+  "find-and-replace":
+    scrollToResultOnLiveSearch: true
   "git-log":
     fontScale: 0.8
   "git-plus":
@@ -94,7 +96,7 @@
     honorStyleSettings: true
   "linter-jshint": {}
   "linter-ui-default":
-    panelHeight: 36
+    panelHeight: 81
   "merge-conflicts": {}
   minimap:
     plugins:
