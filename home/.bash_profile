@@ -28,5 +28,7 @@ export FZF_CTRL_R_OPTS='--bind "F1:toggle-preview" --preview "echo {}" --preview
 
 export BASH_IT_DOCKER_MACHINE=default
 
+export POWERLINE_PADDING=3
+
 # Load Bash It
 source $BASH_IT/bash_it.sh
