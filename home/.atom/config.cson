@@ -47,6 +47,8 @@
   "autocomplete-plus":
     enableAutoActivation: false
   bookmarklet: {}
+  build:
+    saveOnBuild: true
   core:
     disabledPackages: [
       "term"
@@ -112,7 +114,8 @@
   "remote-edit": {}
   "seti-ui":
     themeColor: "Green"
-  "tree-view": {}
+  "tree-view":
+    autoReveal: true
   "view-tail-large-files": {}
   welcome:
     showOnStartup: false

@@ -8,6 +8,8 @@ brew install bash-completion
 
 brew install coreutils
 
+brew install curl
+
 brew install cv
 
 brew install editorconfig
@@ -24,7 +26,7 @@ brew install fzf
 
 brew install gawk
 
-brew install git
+brew install --with-curl git
 
 brew install git-lfs
 

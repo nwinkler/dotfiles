@@ -32,3 +32,4 @@ export POWERLINE_PADDING=3
 
 # Load Bash It
 source $BASH_IT/bash_it.sh
+
