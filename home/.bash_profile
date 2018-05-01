@@ -30,6 +30,8 @@ export BASH_IT_DOCKER_MACHINE=default
 
 export POWERLINE_PADDING=3
 
+export BASH_IT_RELOAD_LEGACY=true
+
 # Load Bash It
 source $BASH_IT/bash_it.sh
 
