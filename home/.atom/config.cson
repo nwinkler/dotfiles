@@ -111,6 +111,9 @@
   "one-dark-ui": {}
   "open-in":
     applications: "SourceTree,Terminal,Finder,WebStorm"
+  "platformio-ide-terminal":
+    style:
+      fontSize: "12pt"
   "remote-edit": {}
   "seti-ui":
     themeColor: "Green"

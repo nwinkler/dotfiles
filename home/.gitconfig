@@ -34,13 +34,11 @@
 	cmd = /Applications/DiffMerge.app/Contents/MacOS/DiffMerge/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
 	trustExitCode = true
 [http]
-	postBuffer = 524288000
+    postBuffer = 524288000
+[http "https://bitbucket.fnis.com"]    
 	sslCert = bitbucket.fnis.com
-[https]
-[https]
 [credential]
 	helper = osxkeychain
-[https]
 [push]
     default = simple
 [diff "zip"]
