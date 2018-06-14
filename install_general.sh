@@ -72,7 +72,7 @@ brew install unison
 
 brew install unrar
 
-brew install vim
+brew install vim --with-python@2
 
 brew install wdiff
 
