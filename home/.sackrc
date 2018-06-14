@@ -23,7 +23,7 @@ sack__dev_null=/dev/null
 sack__OS=$(uname)
 
 # @todo: add support for editors other than 'vim', 'gvim' and 'emacs'
-sack__default_editor=atom
+sack__default_editor=code
 
 # # # # # # sack profiles # # # # # #
 # (Note: do not edit the beacon tags)
