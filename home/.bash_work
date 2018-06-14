@@ -2,7 +2,7 @@
 
 export MAVEN_OPTS=-Xmx512m
 
-jenv global 1.7
+jenv global 1.8
 
 pathmunge ~/bin:/usr/local/sbin
 
