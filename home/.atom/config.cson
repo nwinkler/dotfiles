@@ -70,6 +70,7 @@
     ]
   editor:
     fontFamily: "Knack Nerd Font"
+    fontSize: 12
     invisibles: {}
     showInvisibles: true
     softWrapHangingIndent: 4
@@ -98,7 +99,7 @@
     honorStyleSettings: true
   "linter-jshint": {}
   "linter-ui-default":
-    panelHeight: 36
+    panelHeight: 81
   "merge-conflicts": {}
   minimap:
     plugins:
