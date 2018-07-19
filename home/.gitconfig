@@ -52,5 +52,3 @@
 	smudge = git-lfs smudge -- %f
 	required = true
 	process = git-lfs filter-process
-[commit]
-	template = /Users/nils.winkler/.stCommitMsg
