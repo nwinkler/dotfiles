@@ -44,7 +44,6 @@ bash-it enable completion vagrant
 # Plugins
 bash-it enable plugin alias-completion
 bash-it enable plugin audio
-bash-it enable plugin autojump
 bash-it enable plugin base
 bash-it enable plugin battery
 bash-it enable plugin browser
@@ -52,12 +51,12 @@ bash-it enable plugin dirs
 bash-it enable plugin docker
 bash-it enable plugin docker-machine
 bash-it enable plugin extract
-bash-it enable plugin fasd
 bash-it enable plugin fzf
 bash-it enable plugin git
 bash-it enable plugin java
 bash-it enable plugin javascript
 bash-it enable plugin jenv
+bash-it enable plugin jump
 bash-it enable plugin logic-pro-x
 bash-it enable plugin maven
 bash-it enable plugin node

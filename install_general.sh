@@ -36,6 +36,8 @@ brew install htop-osx
 
 brew install httpie
 
+brew install jump
+
 brew install lame
 
 brew install links

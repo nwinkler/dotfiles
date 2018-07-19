@@ -2,8 +2,6 @@
 
 export MAVEN_OPTS=-Xmx512m
 
-set_java_home 1.7 -silent
-
 pathmunge ~/bin:/usr/local/sbin
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
