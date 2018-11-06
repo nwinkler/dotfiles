@@ -142,13 +142,13 @@ sudo chown root:admin /Applications
 
 # Gem tools
 
-# https://github.com/aanand/git-up
-sudo gem install git-up
-
 # https://github.com/jneen/rouge
 sudo gem install rouge
 
 # Python tools
+
+# https://github.com/msiemens/PyGitUp
+sudo pip install git-up
 
 # https://github.com/nvbn/thefuck
 sudo pip install thefuck
@@ -159,24 +159,8 @@ sudo pip install Pygments
 # https://github.com/nicolargo/glances
 sudo pip install glances
 
-# Atom packages
-
-apm stars --install --user nwinkler
-apm install linter
-apm install linter-shellcheck
-
-# Zoom tool - https://gitlab.com/mjwhitta/zoom
+# Other tools
 mkdir -p ~/workspaces/tools
-git clone https://gitlab.com/mjwhitta/zoom.git ~/workspaces/tools/zoom
-cd ~/workspaces/tools/zoom
-sudo rake install
-cd /usr/local/bin
-# In order to avoid confusion with the `z` function from fasd
-sudo ln -s z zo
-cd
-/usr/local/bin/z --switch=ag
-# Required for using `zo` as an alias for the `z` command
-/usr/local/bin/z --rename=zo
 
 cd ~/workspaces/tools
 git clone https://github.com/sampson-chen/sack.git && cd sack && chmod +x install_sack.sh && ./install_sack.sh
