@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+NAME=$(basename "$PWD" | sed -e 's/ /-/g')
+
+if [ -n "$1" ]; then
+  security add-generic-password -a ansible_vault_$NAME -s ansible -w $1;
+else
+  printf "Syntax: ansible-vault-add-pass <vault-password>\\n"
+  exit 1
+fi
