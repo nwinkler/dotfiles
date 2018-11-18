@@ -9,3 +9,5 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export GIT_HOSTING='ssh://git@ssh.github.com:443/'
 
 export BASH_IT_DOCKER_MACHINE="default"
+
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python2
