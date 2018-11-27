@@ -36,7 +36,7 @@
 [http]
     postBuffer = 524288000
 [http "https://bitbucket.fnis.com"]    
-	sslCert = bitbucket.fnis.com
+	sslCert = "Winkler, Nils"
 [credential]
 	helper = osxkeychain
 [push]
