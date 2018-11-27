@@ -118,10 +118,6 @@ brew cask install hyperterm
 
 brew cask install java
 
-#brew cask install keepassx
-
-brew cask install dwihn0r-keepassx
-
 brew cask install kindle
 
 brew cask install launchcontrol
