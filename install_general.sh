@@ -54,6 +54,8 @@ brew install proctools
 
 brew install psgrep
 
+brew install python@2
+
 brew install rsync
 
 # http://apple.stackexchange.com/questions/135565/how-do-i-get-detailed-smart-disk-information-on-os-x-mavericks-or-later
