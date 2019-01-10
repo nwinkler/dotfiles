@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# shellcheck disable=SC1090
 source "$HOME/.bash_it/bash_it.sh"
 
 bash-it disable alias      all
