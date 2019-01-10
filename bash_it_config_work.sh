@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source "$HOME/.bash_it/bash_it.sh"
+
 bash-it disable alias      all
 bash-it disable completion all
 bash-it disable plugin     all

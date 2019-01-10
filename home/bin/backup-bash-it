@@ -10,6 +10,8 @@ source "$HOME/.bash_it/bash_it.sh"
 
 echo "#!/usr/bin/env bash" > "$BACKUP_FILE_NAME"
 echo "" >> "$BACKUP_FILE_NAME"
+echo 'source "$HOME/.bash_it/bash_it.sh"' >> "$BACKUP_FILE_NAME"
+echo "" >> "$BACKUP_FILE_NAME"
 echo "bash-it disable alias      all" >> "$BACKUP_FILE_NAME"
 echo "bash-it disable completion all" >> "$BACKUP_FILE_NAME"
 echo "bash-it disable plugin     all" >> "$BACKUP_FILE_NAME"
