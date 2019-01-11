@@ -2,7 +2,15 @@
 
 # Find out where Bash-it is located, with a reasonable fallback
 __BASH_IT_INSTALL=${BASH_IT:-$HOME/.bash_it}
-echo "Bash-it location: $__BASH_IT_INSTALL"
+
+if [ ! -f "$__BASH_IT_INSTALL/bash_it.sh" ] ; then
+  echo "Bash-it not found at $__BASH_IT_INSTALL."
+  # shellcheck disable=SC2016
+  echo 'Please set the $BASH_IT variable to point to your Bash-it installation.'
+  exit 1
+else
+  echo "Bash-it location  : $__BASH_IT_INSTALL"
+fi
 
 # shellcheck disable=SC1090
 source "$__BASH_IT_INSTALL/bash_it.sh"
@@ -10,6 +18,8 @@ source "$__BASH_IT_INSTALL/bash_it.sh"
 bash-it disable alias      all
 bash-it disable completion all
 bash-it disable plugin     all
+
+echo ""
 
 # An array with the alias instances to enable
 __enable_alias=(

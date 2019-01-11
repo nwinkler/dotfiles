@@ -48,12 +48,21 @@ function build-enable-array() {
 
 # Print the desired output to the created file
 {
+  # Create the boiler plate code block first...
   cat <<'CONTENT_END'
 #!/usr/bin/env bash
 
 # Find out where Bash-it is located, with a reasonable fallback
 __BASH_IT_INSTALL=${BASH_IT:-$HOME/.bash_it}
-echo "Bash-it location: $__BASH_IT_INSTALL"
+
+if [ ! -f "$__BASH_IT_INSTALL/bash_it.sh" ] ; then
+  echo "Bash-it not found at $__BASH_IT_INSTALL."
+  # shellcheck disable=SC2016
+  echo 'Please set the $BASH_IT variable to point to your Bash-it installation.'
+  exit 1
+else
+  echo "Bash-it location  : $__BASH_IT_INSTALL"
+fi
 
 # shellcheck disable=SC1090
 source "$__BASH_IT_INSTALL/bash_it.sh"
@@ -61,8 +70,11 @@ source "$__BASH_IT_INSTALL/bash_it.sh"
 bash-it disable alias      all
 bash-it disable completion all
 bash-it disable plugin     all
+
+echo ""
 CONTENT_END
 
+  # Now add the individual parts
   build-enable-array "alias"
   build-enable-array "completion"
   build-enable-array "plugin"
