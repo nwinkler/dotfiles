@@ -1,53 +1,81 @@
 #!/usr/bin/env bash
 
+# Find out where Bash-it is located, with a reasonable fallback
+__BASH_IT_INSTALL=${BASH_IT:-$HOME/.bash_it}
+echo "Bash-it location: $__BASH_IT_INSTALL"
+
 # shellcheck disable=SC1090
-source "$HOME/.bash_it/bash_it.sh"
+source "$__BASH_IT_INSTALL/bash_it.sh"
 
 bash-it disable alias      all
 bash-it disable completion all
 bash-it disable plugin     all
 
-bash-it enable alias ag
-bash-it enable alias bundler
-bash-it enable alias general
-bash-it enable alias git
-bash-it enable alias homebrew
-bash-it enable alias markdown
-bash-it enable alias maven
-bash-it enable alias nwinkler
-bash-it enable alias osx
-bash-it enable alias vagrant
-bash-it enable alias vim
+# An array with the alias instances to enable
+__enable_alias=(
+  ag
+  bundler
+  general
+  git
+  homebrew
+  markdown
+  maven
+  nwinkler
+  osx
+  vagrant
+  vim
+)
 
-bash-it enable completion bash-it
-bash-it enable completion brew
-bash-it enable completion defaults
-bash-it enable completion dirs
-bash-it enable completion gem
-bash-it enable completion git
-bash-it enable completion git_flow
-bash-it enable completion homesick
-bash-it enable completion maven
-bash-it enable completion npm
-bash-it enable completion ssh
-bash-it enable completion vagrant
+# Enable all alias instances in one call
+echo 'Enable all alias instances:'
+bash-it enable alias "${__enable_alias[@]}"
+echo ''
 
-bash-it enable plugin alias-completion
-bash-it enable plugin audio
-bash-it enable plugin base
-bash-it enable plugin battery
-bash-it enable plugin browser
-bash-it enable plugin dirs
-bash-it enable plugin extract
-bash-it enable plugin fzf
-bash-it enable plugin git
-bash-it enable plugin java
-bash-it enable plugin jump
-bash-it enable plugin logic-pro-x
-bash-it enable plugin maven
-bash-it enable plugin osx-timemachine
-bash-it enable plugin osx
-bash-it enable plugin proxy
-bash-it enable plugin ruby
-bash-it enable plugin ssh
-bash-it enable plugin virtualenv
+# An array with the completion instances to enable
+__enable_completion=(
+  bash-it
+  brew
+  defaults
+  dirs
+  gem
+  git
+  git_flow
+  homesick
+  maven
+  npm
+  ssh
+  vagrant
+)
+
+# Enable all completion instances in one call
+echo 'Enable all completion instances:'
+bash-it enable completion "${__enable_completion[@]}"
+echo ''
+
+# An array with the plugin instances to enable
+__enable_plugin=(
+  alias-completion
+  audio
+  base
+  battery
+  browser
+  dirs
+  extract
+  fzf
+  git
+  java
+  jump
+  logic-pro-x
+  maven
+  osx
+  osx-timemachine
+  proxy
+  ruby
+  ssh
+  virtualenv
+)
+
+# Enable all plugin instances in one call
+echo 'Enable all plugin instances:'
+bash-it enable plugin "${__enable_plugin[@]}"
+echo ''
