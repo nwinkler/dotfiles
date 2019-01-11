@@ -1,35 +1,68 @@
 #!/usr/bin/env bash
 
+# Allow the user to provide a context name, e.g. 'home' or 'work'.
+# If no context is provided, use 'default'.
 BACKUP_FILE_NAME_CONTEXT=${1:-default}
 
 BACKUP_FILE_NAME="$HOME/.homesick/repos/dotfiles/bash_it_config_$BACKUP_FILE_NAME_CONTEXT.sh"
 
 echo "Backing up to file: $BACKUP_FILE_NAME"
 
-# shellcheck disable=SC1090
-source "$HOME/.bash_it/bash_it.sh"
+# Find out where Bash-it is located, with a reasonable fallback
+__BASH_IT_INSTALL=${BASH_IT:-$HOME/.bash_it}
 
+echo "Bash-it location  : $__BASH_IT_INSTALL"
+
+# Bash-it needs to be sourced in order to call "bash-it show" in the script.
+# shellcheck disable=SC1090
+source "$__BASH_IT_INSTALL/bash_it.sh"
+
+# Reusable function that does the "bash-it show" parsing and prints the results
+# in the desired format.
+function build-enable-array() {
+  local component_type="$1"
+
+  echo ""
+  echo "# An array with the $component_type instances to enable"
+  echo "__enable_$component_type=("
+  # Parse the output of "bash-it show" to find out what is currently enabled,
+  # then print each item to an array. Use one line per entry for easier diffing.
+  bash-it show "$component_type" | grep "\\[x\\]" | awk '{print "  " $1}' | sort
+  echo ")"
+
+  echo ""
+  echo "# Enable all $component_type instances in one call"
+  echo "echo 'Enable all $component_type instances:'"
+  # shellcheck disable=SC2016
+  echo 'bash-it enable '"$component_type"' "${__enable_'"$component_type"'[@]}"'
+  echo "echo ''"
+}
+
+# Always overwrite the output file
 echo "#!/usr/bin/env bash" > "$BACKUP_FILE_NAME"
 
+# Print the desired output to the created file
 {
+  echo ""
+
+  echo '# Find out where Bash-it is located, with a reasonable fallback'
+  # shellcheck disable=SC2016
+  echo '__BASH_IT_INSTALL=${BASH_IT:-$HOME/.bash_it}'
+  # shellcheck disable=SC2016
+  echo 'echo "Bash-it location: $__BASH_IT_INSTALL"'
   echo ""
 
   echo "# shellcheck disable=SC1090"
   # shellcheck disable=SC2016
-  echo 'source "$HOME/.bash_it/bash_it.sh"'
+  echo 'source "$__BASH_IT_INSTALL/bash_it.sh"'
   echo ""
   echo "bash-it disable alias      all"
   echo "bash-it disable completion all"
   echo "bash-it disable plugin     all"
 
-  echo ""
-  bash-it show alias      | grep "\\[x\\]" | awk '{print "bash-it enable alias "      $1}'
-
-  echo ""
-  bash-it show completion | grep "\\[x\\]" | awk '{print "bash-it enable completion " $1}'
-
-  echo ""
-  bash-it show plugin     | grep "\\[x\\]" | awk '{print "bash-it enable plugin "     $1}'
+  build-enable-array "alias"
+  build-enable-array "completion"
+  build-enable-array "plugin"
 } >> "$BACKUP_FILE_NAME"
 
 chmod +x "$BACKUP_FILE_NAME"
