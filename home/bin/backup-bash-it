@@ -26,7 +26,7 @@ echo "Backing up to file: $BACKUP_FILE_NAME"
 
 # Reusable function that does the "bash-it show" parsing and prints the results
 # in the desired format.
-function build-enable-array() {
+function __build-enable-array() {
   local component_type="$1"
 
   echo ""
@@ -36,21 +36,38 @@ function build-enable-array() {
   # then print each item to an array. Use one line per entry for easier diffing.
   bash-it show "$component_type" | grep "\\[x\\]" | awk '{print "  " $1}' | sort
   echo ")"
+}
+
+function __enable-component() {
+  local component_type="$1"
 
   echo ""
+  echo "# Disable all $component_type instances"
+  echo "echo 'Disable all $component_type instances:'"
+  # shellcheck disable=SC2016
+  echo 'bash-it disable '"$component_type"' all'
+  echo ""
   echo "# Enable all $component_type instances in one call"
-  echo "echo 'Enable all $component_type instances:'"
+  echo "echo 'Enable $component_type instances:'"
   # shellcheck disable=SC2016
   echo 'bash-it enable '"$component_type"' "${__enable_'"$component_type"'[@]}"'
   echo "echo ''"
 }
 
-
 # Print the desired output to the created file
 {
   # Create the boiler plate code block first...
-  cat <<'CONTENT_END'
+  cat <<'CONTENT_HEADER_END'
 #!/usr/bin/env bash
+CONTENT_HEADER_END
+
+  # Now add the individual parts
+  __build-enable-array "alias"
+  __build-enable-array "completion"
+  __build-enable-array "plugin"
+
+  # Create the boiler plate code block first...
+  cat <<'CONTENT_FOOTER_END'
 
 # Find out where Bash-it is located, with a reasonable fallback
 __BASH_IT_INSTALL=${BASH_IT:-$HOME/.bash_it}
@@ -67,17 +84,12 @@ fi
 # shellcheck disable=SC1090
 source "$__BASH_IT_INSTALL/bash_it.sh"
 
-bash-it disable alias      all
-bash-it disable completion all
-bash-it disable plugin     all
+echo ''
+CONTENT_FOOTER_END
 
-echo ""
-CONTENT_END
-
-  # Now add the individual parts
-  build-enable-array "alias"
-  build-enable-array "completion"
-  build-enable-array "plugin"
+  __enable-component "alias"
+  __enable-component "completion"
+  __enable-component "plugin"
 } > "$BACKUP_FILE_NAME"
 
 chmod +x "$BACKUP_FILE_NAME"
