@@ -45,12 +45,11 @@ function build-enable-array() {
   echo "echo ''"
 }
 
-# Always overwrite the output file
-echo "#!/usr/bin/env bash" > "$BACKUP_FILE_NAME"
 
 # Print the desired output to the created file
 {
   cat <<'CONTENT_END'
+#!/usr/bin/env bash
 
 # Find out where Bash-it is located, with a reasonable fallback
 __BASH_IT_INSTALL=${BASH_IT:-$HOME/.bash_it}
@@ -67,6 +66,6 @@ CONTENT_END
   build-enable-array "alias"
   build-enable-array "completion"
   build-enable-array "plugin"
-} >> "$BACKUP_FILE_NAME"
+} > "$BACKUP_FILE_NAME"
 
 chmod +x "$BACKUP_FILE_NAME"
