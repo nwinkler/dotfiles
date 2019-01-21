@@ -78,4 +78,7 @@ set nowrap                " don't wrap text
 
 let g:airline_powerline_fonts = 1
 set noshowmode
-set shell=/bin/bash\ --login
+""""""
+" Required for editorconfig, otherwise startup would be slow
+""""""
+set shell=/bin/bash
