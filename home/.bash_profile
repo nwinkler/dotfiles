@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# If not running interactively, don't do anything
+case $- in
+  *i*) ;;
+    *) return;;
+esac
+
 # Path to the Bash-it configuration
 export BASH_IT=$HOME/.bash_it
 
