@@ -21,9 +21,5 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 export GIT_HOSTING='git@github.com:'
 
-export LANG="en_US.UTF-8"
-export LANGUAGE="en_US:en"
-export LC_ALL="en_US.UTF-8"
-
 # shellcheck disable=SC2088
 export ANSIBLE_CONFIG="~/.ansible.cfg"

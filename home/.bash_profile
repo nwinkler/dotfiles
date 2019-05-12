@@ -19,6 +19,10 @@ export BASH_IT_DOCKER_MACHINE=default
 export POWERLINE_PADDING=3
 export BASH_IT_RELOAD_LEGACY=true
 
+export LANG="en_US.UTF-8"
+export LANGUAGE="en_US:en"
+export LC_ALL="en_US.UTF-8"
+
 # Set my editor and git editor
 export EDITOR="vim"
 export GIT_EDITOR='vim'
