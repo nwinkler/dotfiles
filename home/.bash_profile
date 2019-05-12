@@ -14,6 +14,11 @@ export BASH_IT=$HOME/.bash_it
 export BASH_IT_THEME='powerline-multiline'
 export BATTERY_AC_CHAR="⚡ "
 
+# Various Bash-it settings
+export BASH_IT_DOCKER_MACHINE=default
+export POWERLINE_PADDING=3
+export BASH_IT_RELOAD_LEGACY=true
+
 # Set my editor and git editor
 export EDITOR="vim"
 export GIT_EDITOR='vim'
@@ -32,12 +37,6 @@ export FZF_DEFAULT_OPTS='--bind "F1:toggle-preview" --preview "rougify {} 2> /de
 # Bind F1 key to toggle preview window on/off
 export FZF_CTRL_R_OPTS='--bind "F1:toggle-preview" --preview "echo {}" --preview-window down:3:hidden:wrap'
 
-export BASH_IT_DOCKER_MACHINE=default
-
-export POWERLINE_PADDING=3
-
-export BASH_IT_RELOAD_LEGACY=true
-
 # Load Bash It
-source $BASH_IT/bash_it.sh
-
+# shellcheck disable=SC1090
+source "$BASH_IT"/bash_it.sh
