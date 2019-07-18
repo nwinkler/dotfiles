@@ -40,6 +40,8 @@ brew install jump
 
 brew install lame
 
+brew install lesspipe
+
 brew install links
 
 brew install mplayer
