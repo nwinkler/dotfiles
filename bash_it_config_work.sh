@@ -54,6 +54,7 @@ __enable_plugin=(
   java
   jenv
   jump
+  lesspipe
   logic-pro-x
   maven
   node

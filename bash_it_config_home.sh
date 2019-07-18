@@ -44,6 +44,7 @@ __enable_plugin=(
   git
   java
   jump
+  lesspipe
   logic-pro-x
   maven
   osx
