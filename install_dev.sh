@@ -5,6 +5,8 @@ brew install ansible
 # Required for SSH with password and Ansible
 brew install http://git.io/sshpass.rb
 
+brew install cntlm
+
 brew install ctop
 
 brew install shellcheck
