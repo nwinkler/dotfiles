@@ -10,6 +10,8 @@ brew doctor
 
 brew tap homebrew/versions
 
+brew tap homebrew/services
+
 brew tap caskroom/versions
 
 brew tap caskroom/fonts
