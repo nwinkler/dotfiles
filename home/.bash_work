@@ -9,7 +9,9 @@ pathmunge ~/bin:/usr/local/sbin
 export BASH_IT_HTTP_PROXY_ALT=http://10.244.145.252:8080
 export BASH_IT_HTTPS_PROXY_ALT=$BASH_IT_HTTP_PROXY_ALT
 
-export BASH_IT_HTTP_PROXY=http://localhost:8999
+# Port 3128: CNTLM
+# Port 8999: Authoxy
+export BASH_IT_HTTP_PROXY=http://localhost:3128
 export BASH_IT_HTTPS_PROXY=$BASH_IT_HTTP_PROXY
 
 # 192.168.59.103 and 192.168.99.100 are for Docker
