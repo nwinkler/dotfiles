@@ -56,6 +56,7 @@ __enable_plugin=(
   jump
   lesspipe
   logic-pro-x
+  man
   maven
   node
   nvm
