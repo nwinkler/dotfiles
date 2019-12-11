@@ -12,6 +12,7 @@ export BASH_IT=$HOME/.bash_it
 # Lock and load a custom theme file
 # location /.bash_it/themes/
 export BASH_IT_THEME='powerline-multiline'
+export POWERLINE_LEFT_PROMPT='scm python_venv ruby cwd'
 export BATTERY_AC_CHAR="⚡ "
 
 # Various Bash-it settings
