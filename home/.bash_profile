@@ -14,10 +14,9 @@ export BASH_IT=$HOME/.bash_it
 export BASH_IT_THEME='powerline-multiline'
 export POWERLINE_LEFT_PROMPT='scm python_venv ruby cwd'
 export BATTERY_AC_CHAR="⚡ "
+export POWERLINE_PADDING=1
+export POWERLINE_COMPACT=0
 
-# Various Bash-it settings
-export BASH_IT_DOCKER_MACHINE=default
-export POWERLINE_PADDING=3
 export BASH_IT_RELOAD_LEGACY=true
 
 export LANG="en_US.UTF-8"
