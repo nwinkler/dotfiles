@@ -6,7 +6,6 @@ __enable_alias=(
   atom
   docker
   docker-compose
-  fuck
   general
   git
   gitsvn
@@ -15,6 +14,7 @@ __enable_alias=(
   maven
   nwinkler
   osx
+  thefuck
   todo.txt-cli
   vagrant
   vim
@@ -47,7 +47,6 @@ __enable_plugin=(
   dirs
   docker
   docker-compose
-  docker-machine
   extract
   fzf
   git
@@ -64,6 +63,7 @@ __enable_plugin=(
   proxy
   ssh
   subversion
+  thefuck
   todo
   virtualenv
 )
