@@ -1,8 +1,0 @@
-.node-gyp
-compile-cache/
-gist-it.token
-packages
-storage
-.apm/
-.apmrc
-blob-store

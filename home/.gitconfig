@@ -1,7 +1,7 @@
 [core]
     whitespace = nowarn
     pager = diff-so-fancy | less --tabs=4 -RFX
-	excludesfile = /Users/nils.winkler/.gitignore_global
+	excludesfile = /Users/e1081712/.gitignore_global
 	autocrlf = input
 	#autocrlf = input
 [user]
@@ -35,7 +35,7 @@
 	trustExitCode = true
 [http]
     postBuffer = 524288000
-[http "https://bitbucket.fnis.com"]    
+[http "https://bitbucket.fis.dev"]
 	sslCert = "Winkler, Nils"
 [credential]
 	helper = osxkeychain
@@ -52,3 +52,7 @@
 	smudge = git-lfs smudge -- %f
 	required = true
 	process = git-lfs filter-process
+[diff "scpt"]
+  textconv = osadecompile
+  binary = true
+
