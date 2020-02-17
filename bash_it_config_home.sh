@@ -11,6 +11,7 @@ __enable_alias=(
   maven
   nwinkler
   osx
+  thefuck
   vagrant
   vim
 )
@@ -43,6 +44,7 @@ __enable_plugin=(
   fzf
   git
   java
+  jenv
   jump
   lesspipe
   logic-pro-x
@@ -52,6 +54,7 @@ __enable_plugin=(
   proxy
   ruby
   ssh
+  thefuck
   virtualenv
 )
 
