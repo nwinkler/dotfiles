@@ -4,6 +4,7 @@
 __enable_alias=(
   ag
   bundler
+  fuck
   general
   git
   homebrew
@@ -11,7 +12,6 @@ __enable_alias=(
   maven
   nwinkler
   osx
-  thefuck
   vagrant
   vim
 )
