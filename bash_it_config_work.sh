@@ -6,6 +6,7 @@ __enable_alias=(
   atom
   docker
   docker-compose
+  fuck
   general
   git
   gitsvn
@@ -14,7 +15,6 @@ __enable_alias=(
   maven
   nwinkler
   osx
-  thefuck
   todo.txt-cli
   vagrant
   vim
