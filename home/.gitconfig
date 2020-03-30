@@ -56,3 +56,5 @@
   textconv = osadecompile
   binary = true
 
+[rerere]
+	enabled = true

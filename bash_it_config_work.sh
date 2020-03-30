@@ -44,6 +44,8 @@ __enable_plugin=(
   base
   battery
   browser
+  cht-sh
+  direnv
   dirs
   docker
   docker-compose
