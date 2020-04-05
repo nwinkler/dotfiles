@@ -1,4 +1,4 @@
 .tags*
-home/.atom/git-time-machine/
-home/.atom/split-diff
+home/.atom
 home/.vim/.netrwhist
+.idea
