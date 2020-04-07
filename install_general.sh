@@ -137,6 +137,8 @@ brew cask install the-unarchiver
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
 brew cask install font-source-code-pro-for-powerline
+brew cask install font-jetbrainsmono-nerd-font
+brew cask install font-hack-nerd-font
 
 sudo chown root:admin /Applications
 

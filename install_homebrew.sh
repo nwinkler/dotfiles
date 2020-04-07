@@ -12,8 +12,6 @@ brew tap homebrew/versions
 
 brew tap homebrew/services
 
-brew tap caskroom/versions
-
-brew tap caskroom/fonts
+brew tap homebrew/cask-fonts
 
 brew tap homebrew/dupes
