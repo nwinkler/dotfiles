@@ -41,6 +41,8 @@ export FZF_DEFAULT_OPTS='--bind "F1:toggle-preview" --preview "rougify {} 2> /de
 # Bind F1 key to toggle preview window on/off
 export FZF_CTRL_R_OPTS='--bind "F1:toggle-preview" --preview "echo {}" --preview-window down:3:hidden:wrap'
 
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+
 # Load Bash It
 # shellcheck disable=SC1090
 source "$BASH_IT"/bash_it.sh

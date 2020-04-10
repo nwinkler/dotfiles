@@ -10,4 +10,6 @@ export GIT_HOSTING='ssh://git@ssh.github.com:443/'
 
 export BASH_IT_DOCKER_MACHINE="default"
 
-export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python2
+# Silence the macOS zsh warning, see here:
+# https://www.reddit.com/r/osx/comments/cmm2on/catalina_suppress_zsh_warning/
+export BASH_SILENCE_DEPRECATION_WARNING=1
