@@ -6,7 +6,6 @@
 	#autocrlf = input
 [user]
 	name = Nils Winkler
-	email = nils.winkler@fisglobal.com
 	email = nils@nilswinkler.com
 	signingkey = 317C6E70C88A89B1
 [github]
@@ -61,3 +60,5 @@
 [rerere]
 	enabled = true
 	autoupdate = true
+[commit]
+	gpgsign = true
