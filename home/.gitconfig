@@ -7,6 +7,8 @@
 [user]
 	name = Nils Winkler
 	email = nils.winkler@fisglobal.com
+	email = nils@nilswinkler.com
+	signingkey = 317C6E70C88A89B1
 [github]
     user = nwinkler
 [color]
