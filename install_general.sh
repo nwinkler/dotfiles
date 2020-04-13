@@ -52,6 +52,8 @@ brew install osxutils
 
 brew install pkgdiff
 
+brew install parallel
+
 brew install proctools
 
 brew install psgrep
