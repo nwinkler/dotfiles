@@ -1,0 +1,7 @@
+[user]
+	name = Nils Winkler
+	email = nils@nilswinkler.com
+	signingkey = 317C6E70C88A89B1
+
+[commit]
+	gpgsign = true

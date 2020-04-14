@@ -1,13 +1,9 @@
 [core]
-    whitespace = nowarn
-    pager = diff-so-fancy | less --tabs=4 -RFX
+  whitespace = nowarn
+  pager = diff-so-fancy | less --tabs=4 -RFX
 	excludesfile = /Users/e1081712/.gitignore_global
 	autocrlf = input
 	#autocrlf = input
-[user]
-	name = Nils Winkler
-	email = nils@nilswinkler.com
-	signingkey = 317C6E70C88A89B1
 [github]
     user = nwinkler
 [color]
@@ -36,8 +32,6 @@
 	trustExitCode = true
 [http]
     postBuffer = 524288000
-[http "https://bitbucket.fis.dev"]
-	sslCert = "Winkler, Nils"
 [credential]
 	helper = osxkeychain
 [push]
@@ -60,5 +54,17 @@
 [rerere]
 	enabled = true
 	autoupdate = true
-[commit]
-	gpgsign = true
+
+[includeIf "gitdir:~/workspaces/"]
+  path = ~/.gitconfig_work
+[includeIf "gitdir:~/.m2/"]
+  path = ~/.gitconfig_work
+[includeIf "gitdir:~/.homesick/repos/work/"]
+  path = ~/.gitconfig_work
+
+[includeIf "gitdir:~/nils-workspaces/"]
+  path = ~/.gitconfig_home
+[includeIf "gitdir:~/.bash_it/"]
+  path = ~/.gitconfig_home
+[includeIf "gitdir:~/.homesick/repos/dotfiles/"]
+  path = ~/.gitconfig_home
