@@ -128,7 +128,7 @@ brew cask install kindle
 
 brew cask install launchcontrol
 
-brew cask install skitch
+brew cask install rectangle
 
 brew cask install superduper
 
