@@ -23,12 +23,12 @@ __enable_completion=(
   defaults
   dirs
   gem
-  git
   git_flow
   homesick
   maven
   npm
   ssh
+  system
   vagrant
 )
 
@@ -54,6 +54,7 @@ __enable_plugin=(
   proxy
   ruby
   ssh
+  sudo
   thefuck
   virtualenv
 )
