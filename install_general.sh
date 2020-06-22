@@ -30,7 +30,7 @@ brew install --with-curl git
 
 brew install git-lfs
 
-brew install --HEAD git-extras
+brew install git-extras
 
 brew install htop-osx
 
@@ -43,6 +43,8 @@ brew install lame
 brew install lesspipe
 
 brew install links
+
+brew install macos-trash
 
 brew install mplayer
 
@@ -100,31 +102,19 @@ sudo chown root:staff /Applications
 
 brew cask install appcleaner
 
-brew cask install atom
-
 brew cask install backuploupe
 
-brew cask install clipmenu
+brew cask install clipy
 
 brew cask install cscreen
 
-brew cask install disk-inventory-x
-
 brew cask install dropbox
-
-brew cask install etrecheck
 
 brew cask install evernote
 
 brew cask install gimp
 
-brew cask install hiss
-
-brew cask install hyperterm
-
 brew cask install java
-
-brew cask install kindle
 
 brew cask install launchcontrol
 
@@ -146,9 +136,6 @@ sudo chown root:admin /Applications
 
 # Gem tools
 
-# https://github.com/jneen/rouge
-sudo gem install rouge
-
 # Python tools
 
 # https://github.com/msiemens/PyGitUp
@@ -156,9 +143,6 @@ sudo pip install git-up
 
 # https://github.com/nvbn/thefuck
 sudo pip install thefuck
-
-# http://pygments.org/
-sudo pip install Pygments
 
 # https://github.com/nicolargo/glances
 sudo pip install glances
