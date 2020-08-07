@@ -68,3 +68,5 @@
   path = ~/.gitconfig_home
 [includeIf "gitdir:~/.homesick/repos/dotfiles/"]
   path = ~/.gitconfig_home
+[pull]
+	rebase = false
