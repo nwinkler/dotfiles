@@ -60,7 +60,7 @@ brew install proctools
 
 brew install psgrep
 
-brew install python@2
+brew install python
 
 brew install rsync
 
@@ -82,7 +82,7 @@ brew install unison
 
 brew install unrar
 
-brew install vim --with-python@2
+brew install vim
 
 brew install wdiff
 
@@ -101,8 +101,6 @@ export HOMEBREW_CASK_OPTS=--appdir=/Applications
 sudo chown root:staff /Applications
 
 brew cask install appcleaner
-
-brew cask install backuploupe
 
 brew cask install clipy
 
@@ -139,13 +137,16 @@ sudo chown root:admin /Applications
 # Python tools
 
 # https://github.com/msiemens/PyGitUp
-sudo pip install git-up
+sudo -H pip3 install git-up
 
 # https://github.com/nvbn/thefuck
-sudo pip install thefuck
+sudo -H pip3 install thefuck
 
 # https://github.com/nicolargo/glances
-sudo pip install glances
+sudo -H pip3 install glances
+
+sudp -H pip3 install virtualenv
+sudp -H pip3 install virtualenvwrapper
 
 # Other tools
 mkdir -p ~/workspaces/tools
