@@ -20,6 +20,8 @@ brew install dive
 
 brew install git-flow-avh
 
+brew install romkatv/gitstatus/gitstatus
+
 brew install jenv
 
 brew install maven

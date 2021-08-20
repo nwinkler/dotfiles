@@ -16,6 +16,9 @@ export POWERLINE_LEFT_PROMPT='scm python_venv ruby cwd'
 export BATTERY_AC_CHAR="⚡ "
 export POWERLINE_PADDING=1
 export POWERLINE_COMPACT=0
+export THEME_CHECK_SUDO=false
+export SCM_GIT_GITSTATUS_DIR="$(brew --prefix gitstatus)"
+export SCM_GIT_USE_GITSTATUS=true
 
 export BASH_IT_RELOAD_LEGACY=true
 
