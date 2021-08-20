@@ -52,6 +52,7 @@ __enable_plugin=(
   extract
   fzf
   git
+  gitstatus
   java
   jenv
   jump
@@ -62,6 +63,7 @@ __enable_plugin=(
   node
   nvm
   osx
+  osx-timemachine
   proxy
   ssh
   subversion
