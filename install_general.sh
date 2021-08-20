@@ -4,6 +4,16 @@ brew install ack
 
 brew install autojump
 
+#############
+# Update Bash
+# https://apple.stackexchange.com/questions/193411/update-bash-to-version-4-0-on-osx
+brew install bash
+
+sudo bash -c 'echo /usr/local/bin/bash >> /etc/shells'
+
+chsh -s /usr/local/bin/bash
+#############
+
 brew install bash-completion
 
 brew install coreutils
