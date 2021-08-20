@@ -9,6 +9,8 @@ brew install cntlm
 
 brew install ctop
 
+brew install pre-commit
+brew install shfmt
 brew install shellcheck
 
 brew install diff-so-fancy
